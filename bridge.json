@@ -1,0 +1,48 @@
+
+{
+        "master": [
+	    {
+            "accessory_1" : {                      
+                "name" : "Lumi_Lightbulb",
+                "manufacturer" : "LUMI_VIETNAM",
+                "model" : "lightbulb",
+                "serial_num" : "lumivietnam",
+                "fw_rev" : "0.9.0",
+                "hw_rev" : "NULL",
+                "pv" : "1.1.0",
+                "identify_routine" : "accessory_identify",
+                "cid" : "HAP_CID_LIGHTING"
+            }               
+        },
+
+        {
+                "accessory_2" : {
+            
+                "name" : "Lumi_fan_1",
+                "manufacturer" : "LUMI_VIETNAM",
+                "model" : "fan",
+                "serial_num" : "lumivietnam",
+                "fw_rev" : "0.9.0",
+                "hw_rev" : "NULL",
+                "pv" : "1.1.0",
+                "identify_routine" : "accessory_identify",
+                "cid" : "HAP_CID_BRIDGE"       
+            }
+        },
+
+        {
+            "accessory_3" : {
+                "name" : "Lumi_fan_2",
+                "manufacturer" : "LUMI_VIETNAM",
+                "model" : "fan",
+                "serial_num" : "lumivietnam",
+                "fw_rev" : "0.9.0",
+                "hw_rev" : "NULL",
+                "pv" : "1.1.0",
+                "identify_routine" : "accessory_identify",
+                "cid" : "HAP_CID_BRIDGE"
+            }
+        }
+	]
+
+}
