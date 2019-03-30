@@ -7,14 +7,14 @@
 #include "app_main.h"
 #include "lightbulb.h"
 #include "fan.h"
-#include "light.h"
+//#include "light.h"
 #include "home_ethernet.h"
 #include "mac_address.h"
 #include "temperature.h"
 #include "source_acc.h"
 #include "cjson_use.h"
-#include "tcp_socket_server.h"
-#include "tcp_socket_client.h"
+//#include "tcp_socket_server.h"
+//#include "tcp_socket_client.h"
 
 /*
  * @brief The network reset button callback handler.
@@ -22,7 +22,9 @@
  */
 static const char *TAG = "ESP32";
 
+
 uint8_t oldsum_accesory = 0;
+uint8_t sum_accesory = 7;
 
 static state_behavior_t behavior =  DO_NOTTHING;
 
@@ -129,7 +131,7 @@ static void bridge_thread_entry(void *p)
 {
 
     hap_acc_t *accessory;
-//    hap_serv_t *service;
+    hap_serv_t *service;
     /* Check connect with MFi */
     if(hap_check_mfi_chip() == HAP_SUCCESS){
     	ESP_LOGI(TAG, "MFi authentication co-processor is connected");
@@ -175,62 +177,58 @@ static void bridge_thread_entry(void *p)
      */
     hap_set_setup_info(&setup_info);
 
-   /* Register a common button for reset Wi-Fi network and reset to factory */
-    reset_key_init(RESET_GPIO);
-    /* Enable WAC2 as per HAP Spec R12 */
-    hap_enable_wac2();
-    /* After all the initializations are done, start the HAP core */
-    if(hap_start() == HAP_SUCCESS)
-    {
-    	ESP_LOGI (TAG, "Bridge already adds acessories");
-    }
-
-    for( ; ;)
-    {
-    	behavior = get_state_behavior(&oldsum_accesory , &sum_accesory);
-    	switch(behavior){
-    		case(DO_NOTTHING):
-    			ESP_LOGI(TAG, "Don't have any behavior accessory ");
-    			break;
-    		case(ADD_ACC):{
-				ESP_LOGI(TAG, "Have some behavior accessory ");
+//    for( ; ;)
+//    {
+//    	behavior = get_state_behavior(&oldsum_accesory , &sum_accesory);
+//    	switch(behavior){
+//    		case(DO_NOTTHING):
+//    			ESP_LOGI(TAG, "Don't have any behavior accessory ");
+//    			break;
+//    		case(ADD_ACC):{
+//				ESP_LOGI(TAG, "Have some behavior accessory ");
 
 				for (int i = 0; i < sum_accesory; i++) {
 
 					if(i < 5 ){
-						if(add_fan_to_bridge(fan_nomral_full,i) == HAP_SUCCESS){
-							ESP_LOGI(TAG, "Add Accessory Fan Succeed");
-						}
+						add_fan_to_bridge(fan_nomral_full,i);
+						ESP_LOGI(TAG, "Add Accessory Fan Succeed");
 					}
 
-					else if ((i>=5) && i < 10){
-						if(add_lightbulb_to_bridge(i) == HAP_SUCCESS){
-							ESP_LOGI(TAG, "Add Lightbulb Success");
-						}
+					else if ((i>=5) && i < 6){
+
+						add_lightbulb_to_bridge(i);
+						ESP_LOGI(TAG, "Add Lightbulb Success");
 					}
 
 					else{
-						if(add_temperature_to_bridge(i) ==  HAP_SUCCESS){
-							ESP_LOGI(TAG, "Add Temperature Sensor Success");
-						}
+						add_temperature_to_bridge(i);
+						ESP_LOGI(TAG, "Add Temperature Sensor Success");
 					}
 					ESP_LOGI(TAG, "Use setup payload: \"X-HM://002LETYN1ES32\" for Accessory Setup");
 					vTaskDelay(500 / portTICK_PERIOD_MS);
 				}
-    			break;
-    		}
-    		case(REMOVE_ACC):
-				ESP_LOGI(TAG, "Remove some behavior accessory ");
-    			break;
-    		case (ERROR_ACC):
-    			ESP_LOGI(TAG, "Error add accessory");
-    			break;
-    		default:
-    			ESP_LOGI(TAG, "Error behavior accessory ");
-    			break;
-    	}
-    	vTaskDelay(2000000000 / portTICK_PERIOD_MS);
-    }
+//    			break;
+//    		}
+//    		case(REMOVE_ACC):
+//				ESP_LOGI(TAG, "Remove some behavior accessory ");
+//    			break;
+//    		case (ERROR_ACC):
+//    			ESP_LOGI(TAG, "Error add accessory");
+//    			break;
+//    		default:
+//    			ESP_LOGI(TAG, "Error behavior accessory ");
+//    			break;
+//    	}
+    	//vTaskDelay(2000 / portTICK_PERIOD_MS);
+//    }
+	{
+   /* Register a common button for reset Wi-Fi network and reset to factory */
+	reset_key_init(RESET_GPIO);
+	/* Enable WAC2 as per HAP Spec R12 */
+	hap_enable_wac2();
+	/* After all the initializations are done, start the HAP core */
+	hap_start();
+	}
 
     /* The task ends here. The read/write callbacks will be invoked by the HAP Framework */
     vTaskDelete(NULL);
