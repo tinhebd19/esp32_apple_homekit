@@ -182,13 +182,28 @@ app_main.o: \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/lightbulb/include/lightbulb.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/driver/include/driver/ledc.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/fan/include/fan.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/light/include/light.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/home_ethernet/include/home_ethernet.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/ethernet/include/eth_phy/phy_lan8720.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/ethernet/include/eth_phy/phy.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/mac_address/include/mac_address.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/temperature/include/temperature.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/source_acc/include/source_acc.h \
- /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/cjson_use/include/cjson_use.h
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/cjson_use/include/cjson_use.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/tcp_socket_server/include/tcp_socket_server.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/esp_wifi.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/esp_wifi_crypto_types.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/esp_wifi_os_adapter.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/event_groups.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/timers.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/task.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/sys/param.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/sys/syslimits.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/machine/endian.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/machine/param.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/lwip/sys.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/lwip/netdb.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/tcp_socket_client/include/tcp_socket_client.h
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/accessories/bridge/main/include/app_main.h:
 
@@ -554,6 +569,8 @@ app_main.o: \
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/fan/include/fan.h:
 
+/home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/light/include/light.h:
+
 /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/home_ethernet/include/home_ethernet.h:
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/ethernet/include/eth_phy/phy_lan8720.h:
@@ -567,4 +584,32 @@ app_main.o: \
 /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/source_acc/include/source_acc.h:
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/cjson_use/include/cjson_use.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/tcp_socket_server/include/tcp_socket_server.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/esp_wifi.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/esp_wifi_crypto_types.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/esp_wifi_os_adapter.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/event_groups.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/timers.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/task.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/sys/param.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/sys/syslimits.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/machine/endian.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/machine/param.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/lwip/sys.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/lwip/netdb.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/tcp_socket_client/include/tcp_socket_client.h:
 /home/tinhebd19/esp/Project/esp-homekit-sdk/accessories/bridge/main/./app_main.c:

@@ -7,14 +7,14 @@
 #include "app_main.h"
 #include "lightbulb.h"
 #include "fan.h"
-//#include "light.h"
+#include "light.h"
 #include "home_ethernet.h"
 #include "mac_address.h"
 #include "temperature.h"
 #include "source_acc.h"
 #include "cjson_use.h"
-//#include "tcp_socket_server.h"
-//#include "tcp_socket_client.h"
+#include "tcp_socket_server.h"
+#include "tcp_socket_client.h"
 
 /*
  * @brief The network reset button callback handler.
@@ -129,7 +129,6 @@ static state_behavior_t get_state_behavior(uint8_t *oldsum ,uint8_t *sum ){
 /*The main thread for handling the Bridge Accessory */
 static void bridge_thread_entry(void *p)
 {
-
     hap_acc_t *accessory;
     hap_serv_t *service;
     /* Check connect with MFi */
@@ -177,16 +176,20 @@ static void bridge_thread_entry(void *p)
      */
     hap_set_setup_info(&setup_info);
 
-//    for( ; ;)
-//    {
-//    	behavior = get_state_behavior(&oldsum_accesory , &sum_accesory);
-//    	switch(behavior){
-//    		case(DO_NOTTHING):
-//    			ESP_LOGI(TAG, "Don't have any behavior accessory ");
-//    			break;
-//    		case(ADD_ACC):{
-//				ESP_LOGI(TAG, "Have some behavior accessory ");
+   /* Register a common button for reset Wi-Fi network and reset to factory */
+	reset_key_init(RESET_GPIO);
+	/* Enable WAC2 as per HAP Spec R12 */
+	hap_enable_wac2();
 
+//    while(true)
+//    {
+    	behavior = get_state_behavior(&oldsum_accesory , &sum_accesory);
+    	switch(behavior){
+    		case(DO_NOTTHING):
+    			ESP_LOGI(TAG, "Don't have any behavior accessory ");
+    			break;
+    		case(ADD_ACC):{
+				ESP_LOGI(TAG, "Have some behavior accessory ");
 				for (int i = 0; i < sum_accesory; i++) {
 
 					if(i < 5 ){
@@ -205,30 +208,26 @@ static void bridge_thread_entry(void *p)
 						ESP_LOGI(TAG, "Add Temperature Sensor Success");
 					}
 					ESP_LOGI(TAG, "Use setup payload: \"X-HM://002LETYN1ES32\" for Accessory Setup");
-					vTaskDelay(500 / portTICK_PERIOD_MS);
 				}
-//    			break;
-//    		}
-//    		case(REMOVE_ACC):
-//				ESP_LOGI(TAG, "Remove some behavior accessory ");
-//    			break;
-//    		case (ERROR_ACC):
-//    			ESP_LOGI(TAG, "Error add accessory");
-//    			break;
-//    		default:
-//    			ESP_LOGI(TAG, "Error behavior accessory ");
-//    			break;
-//    	}
-    	//vTaskDelay(2000 / portTICK_PERIOD_MS);
+				hap_start();
+    			break;
+    		}
+    		case(REMOVE_ACC):
+				ESP_LOGI(TAG, "Remove some behavior accessory ");
+    			hap_start();
+    			break;
+    		case (ERROR_ACC):
+    			ESP_LOGI(TAG, "Error add accessory");
+    			break;
+    		default:
+    			ESP_LOGI(TAG, "Error behavior accessory ");
+    			break;
+    	}
+
+
+//    	vTaskDelay(2000 / portTICK_PERIOD_MS);
+//
 //    }
-	{
-   /* Register a common button for reset Wi-Fi network and reset to factory */
-	reset_key_init(RESET_GPIO);
-	/* Enable WAC2 as per HAP Spec R12 */
-	hap_enable_wac2();
-	/* After all the initializations are done, start the HAP core */
-	hap_start();
-	}
 
     /* The task ends here. The read/write callbacks will be invoked by the HAP Framework */
     vTaskDelete(NULL);
