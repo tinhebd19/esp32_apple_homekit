@@ -161,6 +161,10 @@ lightbulb.o: \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/certs.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/components/homekit/hap_apple_profiles/include/hap_apple_servs.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/components/homekit/hap_apple_profiles/include/hap_apple_chars.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/timers.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/task.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/event_groups.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/timers.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/components/button/button/include/iot_button.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/portmacro.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/json/cJSON/cJSON.h \
@@ -503,6 +507,14 @@ lightbulb.o: \
 /home/tinhebd19/esp/Project/esp-homekit-sdk/components/homekit/hap_apple_profiles/include/hap_apple_servs.h:
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/components/homekit/hap_apple_profiles/include/hap_apple_chars.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/timers.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/task.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/event_groups.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/timers.h:
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/components/button/button/include/iot_button.h:
 

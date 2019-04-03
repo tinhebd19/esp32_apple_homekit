@@ -15,18 +15,13 @@
 #include "cjson_use.h"
 #include "tcp_socket_server.h"
 #include "tcp_socket_client.h"
+#include "add_task.h"
 
 /*
  * @brief The network reset button callback handler.
  * Useful for testing the Wi-Fi re-configuration feature of WAC2
  */
 static const char *TAG = "ESP32";
-
-
-uint8_t oldsum_accesory = 0;
-uint8_t sum_accesory = 7;
-
-static state_behavior_t behavior =  DO_NOTTHING;
 
 static void reset_network_handler(void* arg)
 {
@@ -107,30 +102,11 @@ static int bridge_identify(hap_acc_t *ha)
 }
  */
 
-
-static state_behavior_t get_state_behavior(uint8_t *oldsum ,uint8_t *sum ){
-	if (*oldsum > *sum){
-		*oldsum = *sum;
-		return REMOVE_ACC;
-	}
-	else if (*oldsum == *sum){
-		return DO_NOTTHING;
-	}
-	else if (*oldsum < *sum){
-		*oldsum = *sum;
-		return ADD_ACC;
-	}
-	else {
-		ESP_LOGI(TAG, "Get state Error");
-		return ERROR_ACC;
-	}
-}
-
 /*The main thread for handling the Bridge Accessory */
 static void bridge_thread_entry(void *p)
 {
     hap_acc_t *accessory;
-    hap_serv_t *service;
+    //hap_serv_t *service;
     /* Check connect with MFi */
     if(hap_check_mfi_chip() == HAP_SUCCESS){
     	ESP_LOGI(TAG, "MFi authentication co-processor is connected");
@@ -181,8 +157,8 @@ static void bridge_thread_entry(void *p)
 	/* Enable WAC2 as per HAP Spec R12 */
 	hap_enable_wac2();
 
-//    while(true)
-//    {
+/*    while(true)
+    {
     	behavior = get_state_behavior(&oldsum_accesory , &sum_accesory);
     	switch(behavior){
     		case(DO_NOTTHING):
@@ -196,13 +172,11 @@ static void bridge_thread_entry(void *p)
 						add_fan_to_bridge(fan_nomral_full,i);
 						ESP_LOGI(TAG, "Add Accessory Fan Succeed");
 					}
-
 					else if ((i>=5) && i < 6){
 
 						add_lightbulb_to_bridge(i);
 						ESP_LOGI(TAG, "Add Lightbulb Success");
 					}
-
 					else{
 						add_temperature_to_bridge(i);
 						ESP_LOGI(TAG, "Add Temperature Sensor Success");
@@ -225,13 +199,25 @@ static void bridge_thread_entry(void *p)
     	}
 
 
-//    	vTaskDelay(2000 / portTICK_PERIOD_MS);
-//
-//    }
+    	vTaskDelay(2000 / portTICK_PERIOD_MS);
 
+    }
+*/
+	hap_start();
     /* The task ends here. The read/write callbacks will be invoked by the HAP Framework */
     vTaskDelete(NULL);
 }
+
+void vApplicationIdleHook( void )
+{
+/* This hook function does nothing but increment a counter. */
+/*
+ * When have freetime, do something
+ */
+
+}
+
+EventGroupHandle_t xEventGroup_Add_Remove;
 
 void app_main()
 {
@@ -240,11 +226,18 @@ void app_main()
 	home_ethernet_init();
 #endif
 
+	xEventGroup_Add_Remove = xEventGroupCreate();
 	test_cjson();
 	lightbulb_init();
 
 /*  Create Tasks  */
-    xTaskCreate(bridge_thread_entry, BRIDGE_TASK_NAME, BRIDGE_TASK_STACKSIZE, NULL, BRIDGE_TASK_PRIORITY, NULL);
+//    xTaskCreate(bridge_thread_entry, BRIDGE_TASK_NAME, BRIDGE_TASK_STACKSIZE, NULL, BRIDGE_TASK_PRIORITY, NULL);
+//    xTaskCreate(add_remove_accessory , ADD_REMOVE_TASK_NAME, ADD_REMOVE_TASK_STACKSIZE, main_SOURCE_ACC_TASK_BIT, ADD_REMOVE_TASK_PRIORITY, NULL );
+//    xTaskCreate(source_acc_task , SOURCE_ACC_TASK_NAME, SOURCE_ACC_TASK_STACKSIZE, main_SOURCE_ACC_TASK_BIT, SOURCE_ACC_TASK_PRIORITY, NULL );
+
+	xTaskCreatePinnedToCore(bridge_thread_entry, BRIDGE_TASK_NAME, BRIDGE_TASK_STACKSIZE, NULL, BRIDGE_TASK_PRIORITY, NULL, 0 );
+	xTaskCreatePinnedToCore(add_remove_accessory , ADD_REMOVE_TASK_NAME, ADD_REMOVE_TASK_STACKSIZE, main_SOURCE_ACC_TASK_BIT, ADD_REMOVE_TASK_PRIORITY, NULL , 1 );
+	xTaskCreatePinnedToCore(source_acc_task , SOURCE_ACC_TASK_NAME, SOURCE_ACC_TASK_STACKSIZE, main_SOURCE_ACC_TASK_BIT, SOURCE_ACC_TASK_PRIORITY, NULL , 1 );
 
 }
 

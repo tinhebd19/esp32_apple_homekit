@@ -21,6 +21,9 @@
 
 #include <freertos/FreeRTOS.h>
 #include <freertos/task.h>
+#include <freertos/timers.h>
+#include <freertos/event_groups.h>
+
 #include <esp_log.h>
 #include "esp_system.h"
 #include "driver/gpio.h"
@@ -55,21 +58,18 @@
 #define USE_DEVKIT      1
 //#define USE_KIT_ETH     1
 
-//#define DO_NOTTHING       1
-//#define ADD_ACC           2
-//#define REMOVE_ACC        3
-
 //#define CONFIG_PHY_ADDRESS 1
 //#define CONFIG_PHY_CLOCK_MODE 0
 
-#define BRIDGE_TASK_PRIORITY  1
+#define BRIDGE_TASK_PRIORITY  6
 #define BRIDGE_TASK_STACKSIZE 4 * 1024
 #define BRIDGE_TASK_NAME      "hap_bridge"
 
 #define NUM_BRIDGED_ACCESSORIES 11
 
-
-//#define LOCATE_JSON  /home/tinhebd19/esp/Project/esp-homekit-sdk/accessories/bridge
+#define main_BRIDGE_TASK_BIT (1 << 0UL)            // Event bit 0, Set by Bridge Task
+#define main_ADD_REMOVE_TASK_BIT (1 << 1UL)			// Event bit 1, Set by Add Remove Task
+#define main_SOURCE_ACC_TASK_BIT  (1 << 3UL)
 
 /* Reset network credentials if button is pressed for more than 3 seconds and then released */
 #define RESET_NETWORK_BUTTON_TIMEOUT        3
@@ -89,6 +89,7 @@
 
 extern uint8_t sum_accesory;
 extern  uint8_t oldsum_accesory;
+extern EventGroupHandle_t xEventGroup_Add_Remove;
 
 typedef enum{
 	DO_NOTTHING = 1,

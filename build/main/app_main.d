@@ -151,6 +151,10 @@ app_main.o: \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/certs.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/components/homekit/hap_apple_profiles/include/hap_apple_servs.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/components/homekit/hap_apple_profiles/include/hap_apple_chars.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/timers.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/task.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/event_groups.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/timers.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/log/include/esp_log.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/log/include/esp_log_internal.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/components/button/button/include/iot_button.h \
@@ -194,16 +198,14 @@ app_main.o: \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/esp_wifi.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/esp_wifi_crypto_types.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/esp_wifi_os_adapter.h \
- /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/event_groups.h \
- /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/timers.h \
- /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/task.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/sys/param.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/sys/syslimits.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/machine/endian.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/machine/param.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/lwip/sys.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/lwip/netdb.h \
- /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/tcp_socket_client/include/tcp_socket_client.h
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/tcp_socket_client/include/tcp_socket_client.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/add_task/include/add_task.h
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/accessories/bridge/main/include/app_main.h:
 
@@ -507,6 +509,14 @@ app_main.o: \
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/components/homekit/hap_apple_profiles/include/hap_apple_chars.h:
 
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/timers.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/task.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/event_groups.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/timers.h:
+
 /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/log/include/esp_log.h:
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/log/include/esp_log_internal.h:
@@ -593,12 +603,6 @@ app_main.o: \
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/esp_wifi_os_adapter.h:
 
-/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/event_groups.h:
-
-/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/timers.h:
-
-/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/task.h:
-
 /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/sys/param.h:
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/sys/syslimits.h:
@@ -612,4 +616,6 @@ app_main.o: \
 /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/lwip/netdb.h:
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/tcp_socket_client/include/tcp_socket_client.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/add_task/include/add_task.h:
 /home/tinhebd19/esp/Project/esp-homekit-sdk/accessories/bridge/main/./app_main.c:

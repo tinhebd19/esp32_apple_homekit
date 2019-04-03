@@ -152,6 +152,10 @@ tcp_socket_server.o: \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/certs.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/components/homekit/hap_apple_profiles/include/hap_apple_servs.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/components/homekit/hap_apple_profiles/include/hap_apple_chars.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/timers.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/task.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/event_groups.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/timers.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/log/include/esp_log.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/log/include/esp_log_internal.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/components/button/button/include/iot_button.h \
@@ -183,9 +187,6 @@ tcp_socket_server.o: \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/esp_wifi.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/esp_wifi_crypto_types.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/esp_wifi_os_adapter.h \
- /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/event_groups.h \
- /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/timers.h \
- /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/task.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/sys/param.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/sys/syslimits.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/machine/endian.h \
@@ -497,6 +498,14 @@ tcp_socket_server.o: \
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/components/homekit/hap_apple_profiles/include/hap_apple_chars.h:
 
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/timers.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/task.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/event_groups.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/timers.h:
+
 /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/log/include/esp_log.h:
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/log/include/esp_log_internal.h:
@@ -558,12 +567,6 @@ tcp_socket_server.o: \
 /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/esp_wifi_crypto_types.h:
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/esp_wifi_os_adapter.h:
-
-/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/event_groups.h:
-
-/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/timers.h:
-
-/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/task.h:
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/sys/param.h:
 
