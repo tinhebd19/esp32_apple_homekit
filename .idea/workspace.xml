@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ee7beea7-6697-43c5-b958-e641aa81e9d7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/build/add_task/add_task.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/add_task/add_task.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/add_task/libadd_task.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/add_task/libadd_task.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app_trace/libapp_trace.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/app_trace/libapp_trace.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app_update/esp_ota_ops.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/app_update/esp_ota_ops.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app_update/libapp_update.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/app_update/libapp_update.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bootloader/bootloader.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/bootloader/bootloader.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bootloader/bootloader.elf" beforeDir="false" afterPath="$PROJECT_DIR$/build/bootloader/bootloader.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bootloader/bootloader_support/libbootloader_support.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/bootloader/bootloader_support/libbootloader_support.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bootloader/bootloader_support/src/bootloader_init.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bootloader/bootloader_support/src/bootloader_init.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bootloader/log/liblog.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/bootloader/log/liblog.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bootloader/main/libmain.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/bootloader/main/libmain.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bootloader/micro-ecc/libmicro-ecc.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/bootloader/micro-ecc/libmicro-ecc.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bootloader/soc/libsoc.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/bootloader/soc/libsoc.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bootloader/spi_flash/libspi_flash.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/bootloader/spi_flash/libspi_flash.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bootloader_support/libbootloader_support.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/bootloader_support/libbootloader_support.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bootloader_support/src/bootloader_clock.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bootloader_support/src/bootloader_clock.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bootloader_support/src/bootloader_common.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bootloader_support/src/bootloader_common.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bootloader_support/src/bootloader_flash.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bootloader_support/src/bootloader_flash.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bootloader_support/src/bootloader_random.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bootloader_support/src/bootloader_random.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bootloader_support/src/bootloader_utility.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bootloader_support/src/bootloader_utility.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bootloader_support/src/efuse.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bootloader_support/src/efuse.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bootloader_support/src/flash_encrypt.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bootloader_support/src/flash_encrypt.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bootloader_support/src/flash_qio_mode.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bootloader_support/src/flash_qio_mode.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bootloader_support/src/secure_boot.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/bootloader_support/src/secure_boot.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bridge.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/bridge.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bridge.elf" beforeDir="false" afterPath="$PROJECT_DIR$/build/bridge.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bridge.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/bridge.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bt/libbt.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/bt/libbt.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/button/button/button.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/button/button/button.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/button/libbutton.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/button/libbutton.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cjson_use/libcjson_use.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/cjson_use/libcjson_use.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/coap/libcoap.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/coap/libcoap.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/coap/libcoap/src/address.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/coap/libcoap/src/address.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/coap/libcoap/src/block.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/coap/libcoap/src/block.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/coap/libcoap/src/debug.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/coap/libcoap/src/debug.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/coap/libcoap/src/net.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/coap/libcoap/src/net.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/coap/libcoap/src/option.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/coap/libcoap/src/option.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/coap/libcoap/src/pdu.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/coap/libcoap/src/pdu.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/coap/libcoap/src/resource.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/coap/libcoap/src/resource.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/coap/libcoap/src/subscribe.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/coap/libcoap/src/subscribe.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/coap/libcoap/src/uri.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/coap/libcoap/src/uri.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/coap/port/coap_io_socket.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/coap/port/coap_io_socket.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/console/libconsole.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/console/libconsole.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cxx/libcxx.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/cxx/libcxx.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/driver/gpio.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/driver/gpio.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/driver/i2c.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/driver/i2c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/driver/i2s.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/driver/i2s.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/driver/ledc.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/driver/ledc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/driver/libdriver.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/driver/libdriver.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/driver/mcpwm.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/driver/mcpwm.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/driver/pcnt.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/driver/pcnt.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/driver/periph_ctrl.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/driver/periph_ctrl.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/driver/rmt.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/driver/rmt.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/driver/rtc_module.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/driver/rtc_module.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/driver/sdio_slave.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/driver/sdio_slave.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/driver/sdmmc_host.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/driver/sdmmc_host.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/driver/sdmmc_transaction.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/driver/sdmmc_transaction.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/driver/sdspi_host.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/driver/sdspi_host.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/driver/sigmadelta.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/driver/sigmadelta.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/driver/spi_common.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/driver/spi_common.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/driver/spi_master.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/driver/spi_master.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/driver/spi_slave.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/driver/spi_slave.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/driver/timer.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/driver/timer.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/driver/uart.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/driver/uart.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/esp-tls/libesp-tls.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/esp-tls/libesp-tls.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/esp32/brownout.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/esp32/brownout.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/esp32/cache_err_int.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/esp32/cache_err_int.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/esp32/clk.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/esp32/clk.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/esp32/cpu_start.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/esp32/cpu_start.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/esp32/crosscore_int.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/esp32/crosscore_int.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/esp32/dport_access.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/esp32/dport_access.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/esp32/dport_panic_highint_hdl.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/esp32/dport_panic_highint_hdl.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/esp32/esp_timer.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/esp32/esp_timer.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/esp32/esp_timer_esp32.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/esp32/esp_timer_esp32.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/esp32/ets_timer_legacy.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/esp32/ets_timer_legacy.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/esp32/event_default_handlers.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/esp32/event_default_handlers.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/esp32/freertos_hooks.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/esp32/freertos_hooks.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/esp32/gdbstub.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/esp32/gdbstub.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/esp32/hw_random.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/esp32/hw_random.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/esp32/hwcrypto/aes.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/esp32/hwcrypto/aes.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/esp32/hwcrypto/sha.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/esp32/hwcrypto/sha.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/esp32/int_wdt.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/esp32/int_wdt.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/esp32/intr_alloc.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/esp32/intr_alloc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/esp32/ipc.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/esp32/ipc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/esp32/libesp32.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/esp32/libesp32.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/esp32/panic.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/esp32/panic.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/esp32/phy_init.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/esp32/phy_init.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/esp32/pm_esp32.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/esp32/pm_esp32.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/esp32/pm_trace.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/esp32/pm_trace.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/esp32/sleep_modes.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/esp32/sleep_modes.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/esp32/system_api.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/esp32/system_api.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/esp32/task_wdt.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/esp32/task_wdt.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/esp32/wifi_os_adapter.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/esp32/wifi_os_adapter.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/esp_adc_cal/esp_adc_cal.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/esp_adc_cal/esp_adc_cal.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/esp_adc_cal/libesp_adc_cal.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/esp_adc_cal/libesp_adc_cal.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/esp_http_client/esp_http_client.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/esp_http_client/esp_http_client.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/esp_http_client/lib/http_auth.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/esp_http_client/lib/http_auth.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/esp_http_client/lib/transport_ssl.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/esp_http_client/lib/transport_ssl.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/esp_http_client/lib/transport_tcp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/esp_http_client/lib/transport_tcp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/esp_http_client/libesp_http_client.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/esp_http_client/libesp_http_client.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/esp_https_ota/libesp_https_ota.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/esp_https_ota/libesp_https_ota.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ethernet/emac_dev.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/ethernet/emac_dev.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ethernet/emac_main.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/ethernet/emac_main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ethernet/eth_phy/phy_common.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/ethernet/eth_phy/phy_common.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ethernet/libethernet.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/ethernet/libethernet.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/expat/libexpat.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/expat/libexpat.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/extras/libextras.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/extras/libextras.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fan/fan.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/fan/fan.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fan/libfan.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/fan/libfan.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fatfs/libfatfs.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/fatfs/libfatfs.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fatfs/src/diskio.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/fatfs/src/diskio.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fatfs/src/diskio_rawflash.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/fatfs/src/diskio_rawflash.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fatfs/src/diskio_sdmmc.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/fatfs/src/diskio_sdmmc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fatfs/src/diskio_wl.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/fatfs/src/diskio_wl.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fatfs/src/ff.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/fatfs/src/ff.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fatfs/src/vfs_fat.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/fatfs/src/vfs_fat.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/freertos/croutine.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/freertos/croutine.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/freertos/event_groups.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/freertos/event_groups.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/freertos/libfreertos.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/freertos/libfreertos.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/freertos/port.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/freertos/port.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/freertos/portasm.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/freertos/portasm.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/freertos/queue.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/freertos/queue.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/freertos/ringbuf.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/freertos/ringbuf.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/freertos/tasks.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/freertos/tasks.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/freertos/timers.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/freertos/timers.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/freertos/xtensa_context.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/freertos/xtensa_context.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/freertos/xtensa_intr.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/freertos/xtensa_intr.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/freertos/xtensa_intr_asm.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/freertos/xtensa_intr_asm.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/freertos/xtensa_vectors.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/freertos/xtensa_vectors.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fw_upgrade/http-firmware-upgrade.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/fw_upgrade/http-firmware-upgrade.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fw_upgrade/libfw_upgrade.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/fw_upgrade/libfw_upgrade.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/hap_apple_profiles/libhap_apple_profiles.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/hap_apple_profiles/libhap_apple_profiles.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/heap/heap_caps.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/heap/heap_caps.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/heap/heap_caps_init.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/heap/heap_caps_init.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/heap/heap_trace.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/heap/heap_trace.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/heap/libheap.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/heap/libheap.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/heap/multi_heap.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/heap/multi_heap.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/hkdf-sha/libhkdf-sha.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/hkdf-sha/libhkdf-sha.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/home_ethernet/home_ethernet.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/home_ethernet/home_ethernet.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/home_ethernet/libhome_ethernet.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/home_ethernet/libhome_ethernet.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/http_server/libhttp_server.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/http_server/libhttp_server.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/a2d/trace/level/api.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/a2d/trace/level/debug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/a2d/trace/level/error.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/a2d/trace/level/event.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/a2d/trace/level/none.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/a2d/trace/level/verbose.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/a2d/trace/level/warning.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/a2dp/enable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/appl/trace/level/api.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/appl/trace/level/debug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/appl/trace/level/error.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/appl/trace/level/event.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/appl/trace/level/none.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/appl/trace/level/verbose.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/appl/trace/level/warning.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/auto.conf" beforeDir="false" afterPath="$PROJECT_DIR$/build/include/config/auto.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/avct/trace/level/api.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/avct/trace/level/debug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/avct/trace/level/error.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/avct/trace/level/event.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/avct/trace/level/none.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/avct/trace/level/verbose.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/avct/trace/level/warning.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/avdt/trace/level/api.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/avdt/trace/level/debug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/avdt/trace/level/error.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/avdt/trace/level/event.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/avdt/trace/level/none.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/avdt/trace/level/verbose.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/avdt/trace/level/warning.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/avrc/trace/level/api.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/avrc/trace/level/debug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/avrc/trace/level/error.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/avrc/trace/level/event.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/avrc/trace/level/none.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/avrc/trace/level/verbose.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/avrc/trace/level/warning.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/aws/iot/mqtt/host.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/aws/iot/override/thing/shadow/rx/buffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/ble/active/scan/report/adv/scan/rsp/individually.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/ble/host/queue/congestion/check.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/ble/mesh/scan/duplicate/en.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/ble/scan/duplicate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/ble/smp/enable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/bluedroid/enabled.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/bluedroid/mem/debug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/bluedroid/pinned/to/core/0.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/bluedroid/pinned/to/core/1.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/blufi/trace/level/api.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/blufi/trace/level/debug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/blufi/trace/level/error.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/blufi/trace/level/event.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/blufi/trace/level/none.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/blufi/trace/level/verbose.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/blufi/trace/level/warning.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/bnep/trace/level/api.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/bnep/trace/level/debug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/bnep/trace/level/error.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/bnep/trace/level/event.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/bnep/trace/level/none.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/bnep/trace/level/verbose.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/bnep/trace/level/warning.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/bootloader/data/factory/reset.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/bootloader/ota/data/erase.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/bt/allocation/from/spiram/first.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/bt/ble/dynamic/env/memory.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/bt/spp/enabled.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/bt/stack/no/log.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/btc/trace/level/api.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/btc/trace/level/debug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/btc/trace/level/error.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/btc/trace/level/event.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/btc/trace/level/none.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/btc/trace/level/verbose.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/btc/trace/level/warning.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/btdm/controller/hci/mode/uart/h4.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/btdm/controller/hci/mode/vhci.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/btdm/controller/modem/sleep.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/btdm/controller/pinned/to/core/0.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/btdm/controller/pinned/to/core/1.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/btdm/lpclk/sel/ext/32k/xtal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/btdm/lpclk/sel/main/xtal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/btdm/modem/sleep/mode/eved.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/btdm/modem/sleep/mode/orig.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/btif/trace/level/api.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/btif/trace/level/debug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/btif/trace/level/error.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/btif/trace/level/event.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/btif/trace/level/none.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/btif/trace/level/verbose.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/btif/trace/level/warning.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/btm/trace/level/api.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/btm/trace/level/debug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/btm/trace/level/error.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/btm/trace/level/event.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/btm/trace/level/none.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/btm/trace/level/verbose.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/btm/trace/level/warning.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/classic/bt/enabled.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/console/uart/custom/num/0.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/console/uart/custom/num/1.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/enable/static/task/clean/up/hook.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/esp32/default/cpu/freq/240.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/esp32/gcov/enable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/esp32/trax/twobanks.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/esp32/wifi/task/pinned/to/core/0.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/esp32/wifi/task/pinned/to/core/1.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/fatfs/api/encoding/ansi/oem.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/fatfs/api/encoding/utf/16.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/fatfs/api/encoding/utf/8.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/flash/encryption/insecure.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/flash/encryption/uart/bootloader/allow/cache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/flash/encryption/uart/bootloader/allow/decrypt.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/flash/encryption/uart/bootloader/allow/encrypt.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/freertos/portmux/debug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/freertos/portmux/debug/recursive.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/freertos/run/time/stats/using/cpu/clk.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/freertos/run/time/stats/using/esp/timer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/freertos/use/stats/formatting/functions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/freertos/use/tickless/idle.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/gap/trace/level/api.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/gap/trace/level/debug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/gap/trace/level/error.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/gap/trace/level/event.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/gap/trace/level/none.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/gap/trace/level/verbose.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/gap/trace/level/warning.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/gatt/trace/level/api.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/gatt/trace/level/debug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/gatt/trace/level/error.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/gatt/trace/level/event.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/gatt/trace/level/none.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/gatt/trace/level/verbose.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/gatt/trace/level/warning.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/gattc/cache/nvs/flash.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/gattc/enable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/gatts/enable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/hci/trace/level/api.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/hci/trace/level/debug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/hci/trace/level/error.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/hci/trace/level/event.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/hci/trace/level/none.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/hci/trace/level/verbose.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/hci/trace/level/warning.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/heap/task/tracking.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/hfp/audio/data/path/hci.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/hfp/audio/data/path/pcm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/hfp/client/enable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/hfp/enable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/hid/trace/level/api.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/hid/trace/level/debug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/hid/trace/level/error.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/hid/trace/level/event.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/hid/trace/level/none.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/hid/trace/level/verbose.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/hid/trace/level/warning.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/int/wdt.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/int/wdt/check/cpu1.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/int/wdt/timeout/ms.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/l2cap/trace/level/api.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/l2cap/trace/level/debug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/l2cap/trace/level/error.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/l2cap/trace/level/event.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/l2cap/trace/level/none.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/l2cap/trace/level/verbose.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/l2cap/trace/level/warning.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/mbedtls/key/exchange/dhe/psk.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/mbedtls/key/exchange/ecdhe/psk.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/mbedtls/key/exchange/psk.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/mbedtls/key/exchange/rsa/psk.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/mca/trace/level/api.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/mca/trace/level/debug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/mca/trace/level/error.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/mca/trace/level/event.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/mca/trace/level/none.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/mca/trace/level/verbose.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/mca/trace/level/warning.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/nvs/encryption.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/openssl/assert/debug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/openssl/assert/debug/block.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/openssl/assert/debug/exit.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/openssl/lowlevel/debug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/osi/trace/level/api.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/osi/trace/level/debug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/osi/trace/level/error.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/osi/trace/level/event.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/osi/trace/level/none.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/osi/trace/level/verbose.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/osi/trace/level/warning.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/pan/trace/level/api.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/pan/trace/level/debug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/pan/trace/level/error.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/pan/trace/level/event.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/pan/trace/level/none.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/pan/trace/level/verbose.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/pan/trace/level/warning.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/pm/dfs/init/auto.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/pm/profiling.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/pm/trace.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/pm/use/rtc/timer/ref.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/ppp/chap/support.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/ppp/debug/on.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/ppp/mppe/support.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/ppp/mschap/support.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/ppp/pap/support.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/rfcomm/trace/level/api.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/rfcomm/trace/level/debug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/rfcomm/trace/level/error.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/rfcomm/trace/level/event.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/rfcomm/trace/level/none.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/rfcomm/trace/level/verbose.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/rfcomm/trace/level/warning.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/sdp/trace/level/api.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/sdp/trace/level/debug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/sdp/trace/level/error.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/sdp/trace/level/event.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/sdp/trace/level/none.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/sdp/trace/level/verbose.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/sdp/trace/level/warning.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/secure/boot/allow/jtag.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/secure/boot/allow/rom/basic.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/secure/boot/allow/short/app/partition.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/secure/boot/build/signed/binaries.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/secure/boot/insecure.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/secure/boot/signing/key.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/secure/boot/test/mode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/secure/boot/verification/key.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/secure/bootloader/key/encoding/192bit.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/secure/bootloader/key/encoding/256bit.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/secure/bootloader/one/time/flash.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/secure/bootloader/reflashable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/secure/signed/apps.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/secure/signed/on/boot.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/secure/signed/on/boot/no/secure/boot.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/secure/signed/on/update.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/secure/signed/on/update/no/secure/boot.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/smp/enable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/smp/trace/level/api.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/smp/trace/level/debug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/smp/trace/level/error.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/smp/trace/level/event.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/smp/trace/level/none.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/smp/trace/level/verbose.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/smp/trace/level/warning.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/spi/flash/log/failed/write.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/spi/flash/warn/setting/zero/to/one.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/spiram/allow/stack/external/memory.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/spiram/boot/init.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/spiram/cache/workaround.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/spiram/ignore/notfound.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/spiram/memtest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/spiram/speed/40m.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/spiram/speed/80m.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/spiram/type/esppsram32.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/spiram/use/caps/alloc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/spiram/use/malloc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/spiram/use/memmap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/sw/coexist/enable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/sw/coexist/preference/balance.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/sw/coexist/preference/bt.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/sw/coexist/preference/wifi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/sysview/enable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/sysview/evt/idle/enable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/sysview/evt/isr/enter/enable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/sysview/evt/isr/exit/enable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/sysview/evt/isr/to/scheduler/enable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/sysview/evt/overflow/enable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/sysview/evt/task/create/enable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/sysview/evt/task/start/exec/enable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/sysview/evt/task/start/ready/enable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/sysview/evt/task/stop/exec/enable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/sysview/evt/task/stop/ready/enable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/sysview/evt/task/terminate/enable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/sysview/evt/timer/enter/enable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/sysview/evt/timer/exit/enable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/sysview/ts/source/ccount.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/sysview/ts/source/esp/timer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/sysview/ts/source/timer/00.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/sysview/ts/source/timer/01.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/sysview/ts/source/timer/10.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/sysview/ts/source/timer/11.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/task/wdt.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/task/wdt/check/idle/task/cpu0.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/task/wdt/check/idle/task/cpu1.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/task/wdt/timeout/s.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/wifi/lwip/allocation/from/spiram/first.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/wl/sector/mode/perf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/config/wl/sector/mode/safe.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/include/sdkconfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/build/include/sdkconfig.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jsmn/libjsmn.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/jsmn/libjsmn.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/json/libjson.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/json/libjson.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/json_generator/libjson_generator.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/json_generator/libjson_generator.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/json_parser/libjson_parser.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/json_parser/libjson_parser.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/led/led/led.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/led/led/led.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/led/libled.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/led/libled.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libsodium/liblibsodium.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/libsodium/liblibsodium.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/light/liblight.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/light/liblight.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lightbulb/liblightbulb.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/lightbulb/liblightbulb.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lightbulb/lightbulb.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/lightbulb/lightbulb.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/log/liblog.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/log/liblog.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/log/log.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/log/log.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lwip/api/api_lib.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/lwip/api/api_lib.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lwip/api/api_msg.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/lwip/api/api_msg.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lwip/api/netbuf.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/lwip/api/netbuf.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lwip/api/netdb.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/lwip/api/netdb.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lwip/api/sockets.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/lwip/api/sockets.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lwip/api/tcpip.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/lwip/api/tcpip.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lwip/apps/ping/ping.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/lwip/apps/ping/ping.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lwip/apps/sntp/sntp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/lwip/apps/sntp/sntp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lwip/core/dns.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/lwip/core/dns.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lwip/core/inet_chksum.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/lwip/core/inet_chksum.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lwip/core/ipv4/autoip.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/lwip/core/ipv4/autoip.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lwip/core/ipv4/dhcp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/lwip/core/ipv4/dhcp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lwip/core/ipv4/icmp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/lwip/core/ipv4/icmp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lwip/core/ipv4/igmp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/lwip/core/ipv4/igmp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lwip/core/ipv4/ip4.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/lwip/core/ipv4/ip4.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lwip/core/ipv4/ip4_addr.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/lwip/core/ipv4/ip4_addr.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lwip/core/ipv6/ethip6.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/lwip/core/ipv6/ethip6.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lwip/core/ipv6/icmp6.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/lwip/core/ipv6/icmp6.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lwip/core/ipv6/ip6.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/lwip/core/ipv6/ip6.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lwip/core/ipv6/ip6_addr.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/lwip/core/ipv6/ip6_addr.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lwip/core/ipv6/ip6_frag.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/lwip/core/ipv6/ip6_frag.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lwip/core/ipv6/nd6.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/lwip/core/ipv6/nd6.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lwip/core/netif.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/lwip/core/netif.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lwip/core/pbuf.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/lwip/core/pbuf.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lwip/core/raw.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/lwip/core/raw.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lwip/core/tcp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/lwip/core/tcp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lwip/core/tcp_in.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/lwip/core/tcp_in.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lwip/core/tcp_out.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/lwip/core/tcp_out.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lwip/core/timers.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/lwip/core/timers.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lwip/core/udp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/lwip/core/udp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lwip/liblwip.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/lwip/liblwip.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lwip/netif/etharp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/lwip/netif/etharp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lwip/port/netif/ethernetif.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/lwip/port/netif/ethernetif.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lwip/port/netif/wlanif.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/lwip/port/netif/wlanif.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lwip/port/vfs_lwip.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/lwip/port/vfs_lwip.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/mac_address/libmac_address.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/mac_address/libmac_address.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/app_main.d" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/app_main.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/app_main.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/app_main.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main/libmain.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/main/libmain.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/mbedtls/libmbedtls.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/mbedtls/libmbedtls.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/mbedtls/port/esp_bignum.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/mbedtls/port/esp_bignum.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/mdns/libmdns.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/mdns/libmdns.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/mdns/mdns.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/mdns/mdns.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/mdns/mdns_console.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/mdns/mdns_console.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/micro-ecc/libmicro-ecc.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/micro-ecc/libmicro-ecc.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/mu_srp/libmu_srp.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/mu_srp/libmu_srp.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/newlib/libnewlib.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/newlib/libnewlib.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/newlib/locks.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/newlib/locks.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/newlib/time.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/newlib/time.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nghttp/libnghttp.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/nghttp/libnghttp.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/nvs_flash/libnvs_flash.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/nvs_flash/libnvs_flash.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/openssl/libopenssl.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/openssl/libopenssl.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/platform/libplatform.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/platform/libplatform.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/platform/src/esp32/hap_platform_wifi.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/platform/src/esp32/hap_platform_wifi.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/protobuf-c/libprotobuf-c.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/protobuf-c/libprotobuf-c.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/provisioning/libprovisioning.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/provisioning/libprovisioning.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/provisioning/transport/transport_cli.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/provisioning/transport/transport_cli.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/pthread/libpthread.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/pthread/libpthread.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/pthread/pthread.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/pthread/pthread.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/pthread/pthread_local_storage.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/pthread/pthread_local_storage.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sdmmc/libsdmmc.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/sdmmc/libsdmmc.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sdmmc/sdmmc_cmd.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/sdmmc/sdmmc_cmd.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/smartconfig_ack/libsmartconfig_ack.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/smartconfig_ack/libsmartconfig_ack.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/soc/esp32/cpu_util.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/soc/esp32/cpu_util.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/soc/esp32/rtc_clk.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/soc/esp32/rtc_clk.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/soc/esp32/rtc_init.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/soc/esp32/rtc_init.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/soc/esp32/rtc_sleep.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/soc/esp32/rtc_sleep.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/soc/esp32/rtc_time.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/soc/esp32/rtc_time.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/soc/libsoc.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/soc/libsoc.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/source_acc/libsource_acc.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/source_acc/libsource_acc.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/source_acc/source_acc.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/source_acc/source_acc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/spi_flash/cache_utils.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/spi_flash/cache_utils.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/spi_flash/flash_mmap.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/spi_flash/flash_mmap.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/spi_flash/flash_ops.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/spi_flash/flash_ops.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/spi_flash/libspi_flash.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/spi_flash/libspi_flash.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/spi_flash/partition.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/spi_flash/partition.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/spi_flash/spi_flash_rom_patch.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/spi_flash/spi_flash_rom_patch.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/spiffs/esp_spiffs.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/spiffs/esp_spiffs.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/spiffs/libspiffs.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/spiffs/libspiffs.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/spiffs/spiffs_api.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/spiffs/spiffs_api.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tcp_socket_client/libtcp_socket_client.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/tcp_socket_client/libtcp_socket_client.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tcp_socket_server/libtcp_socket_server.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/tcp_socket_server/libtcp_socket_server.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tcpip_adapter/libtcpip_adapter.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/tcpip_adapter/libtcpip_adapter.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tcpip_adapter/tcpip_adapter_lwip.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/tcpip_adapter/tcpip_adapter_lwip.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/temperature/libtemperature.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/temperature/libtemperature.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/temperature/temperature.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/temperature/temperature.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ulp/libulp.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/ulp/libulp.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/ulp/ulp.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/ulp/ulp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vfs/libvfs.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/vfs/libvfs.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vfs/vfs.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/vfs/vfs.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/vfs/vfs_uart.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/vfs/vfs_uart.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/wear_levelling/libwear_levelling.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/wear_levelling/libwear_levelling.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/wpa_supplicant/libwpa_supplicant.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/wpa_supplicant/libwpa_supplicant.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/xtensa-debug-module/libxtensa-debug-module.a" beforeDir="false" afterPath="$PROJECT_DIR$/build/xtensa-debug-module/libxtensa-debug-module.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/app_main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main/app_main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/include/app_main.h" beforeDir="false" afterPath="$PROJECT_DIR$/main/include/app_main.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdkconfig" beforeDir="false" afterPath="$PROJECT_DIR$/sdkconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdkconfig.old" beforeDir="false" afterPath="$PROJECT_DIR$/sdkconfig.old" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main/app_main.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+              <folding>
+                <element signature="e#4338#4715#0" />
+                <element signature="e#6539#7691#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/bridge.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="132" />
+    <option name="y" value="27" />
+    <option name="width" value="1763" />
+    <option name="height" value="1018" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="bridge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bridge" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ee7beea7-6697-43c5-b958-e641aa81e9d7" name="Default Changelist" comment="" />
+      <created>1554289505294</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554289505294</updated>
+      <workItem from="1554289506675" duration="778000" />
+      <workItem from="1554299333227" duration="754000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1532000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="132" y="27" width="1763" height="1018" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2085032" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32993197" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bridge.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/app_main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding>
+            <element signature="e#4338#4715#0" />
+            <element signature="e#6539#7691#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

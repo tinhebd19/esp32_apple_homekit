@@ -1,0 +1,643 @@
+In archive /home/tinhebd19/esp/Project/esp-homekit-sdk/accessories/bridge/build/hap_apple_profiles/libhap_apple_profiles.a:
+
+hap_apple_chars.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.hap_char_brightness_create 00000014  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.hap_char_cooling_threshold_temperature_create 00000020  00000000  00000000  00000048  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.hap_char_current_door_state_create 0000000c  00000000  00000000  00000068  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.hap_char_current_heating_cooling_state_create 0000000c  00000000  00000000  00000074  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.hap_char_current_relative_humidity_create 00000020  00000000  00000000  00000080  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.hap_char_current_temperature_create 00000020  00000000  00000000  000000a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.hap_char_firmware_revision_create 00000008  00000000  00000000  000000c0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.hap_char_hardware_revision_create 00000008  00000000  00000000  000000c8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.hap_char_heating_threshold_temperature_create 00000020  00000000  00000000  000000d0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.hap_char_hue_create 00000020  00000000  00000000  000000f0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.hap_char_identify_create 00000008  00000000  00000000  00000110  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .literal.hap_char_lock_current_state_create 0000000c  00000000  00000000  00000118  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .literal.hap_char_lock_target_state_create 0000000c  00000000  00000000  00000124  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .literal.hap_char_manufacturer_create 00000008  00000000  00000000  00000130  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .literal.hap_char_model_create 00000008  00000000  00000000  00000138  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .literal.hap_char_motion_detected_create 00000008  00000000  00000000  00000140  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .literal.hap_char_name_create 00000008  00000000  00000000  00000148  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .literal.hap_char_obstruction_detect_create 00000008  00000000  00000000  00000150  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .literal.hap_char_on_create 00000008  00000000  00000000  00000158  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .literal.hap_char_outlet_in_use_create 00000008  00000000  00000000  00000160  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .literal.hap_char_rotation_direction_create 0000000c  00000000  00000000  00000168  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .literal.hap_char_rotation_speed_create 00000020  00000000  00000000  00000174  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .literal.hap_char_saturation_create 00000020  00000000  00000000  00000194  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .literal.hap_char_serial_number_create 00000008  00000000  00000000  000001b4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .literal.hap_char_target_door_state_create 0000000c  00000000  00000000  000001bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .literal.hap_char_target_heating_cooling_state_create 0000000c  00000000  00000000  000001c8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .literal.hap_char_target_relative_humidity_create 00000020  00000000  00000000  000001d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .literal.hap_char_target_temperature_create 00000020  00000000  00000000  000001f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 28 .literal.hap_char_temperature_display_units_create 0000000c  00000000  00000000  00000214  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 29 .literal.hap_char_version_create 00000008  00000000  00000000  00000220  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 30 .literal.hap_char_security_system_current_state_create 0000000c  00000000  00000000  00000228  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 31 .literal.hap_char_security_system_target_state_create 0000000c  00000000  00000000  00000234  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 32 .literal.hap_char_battery_level_create 00000014  00000000  00000000  00000240  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 33 .literal.hap_char_carbon_monoxide_detected_create 0000000c  00000000  00000000  00000254  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 34 .literal.hap_char_contact_sensor_state_create 0000000c  00000000  00000000  00000260  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 35 .literal.hap_char_current_ambient_light_level_create 00000020  00000000  00000000  0000026c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 36 .literal.hap_char_current_horizontal_tilt_angle_create 00000014  00000000  00000000  0000028c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 37 .literal.hap_char_current_position_create 00000014  00000000  00000000  000002a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 38 .literal.hap_char_current_vertical_tilt_angle_create 00000014  00000000  00000000  000002b4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 39 .literal.hap_char_hold_position_create 00000008  00000000  00000000  000002c8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 40 .literal.hap_char_leak_detected_create 0000000c  00000000  00000000  000002d0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 41 .literal.hap_char_occupancy_detected_create 0000000c  00000000  00000000  000002dc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 42 .literal.hap_char_position_state_create 0000000c  00000000  00000000  000002e8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 43 .literal.hap_char_programmable_switch_event_create 0000000c  00000000  00000000  000002f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 44 .literal.hap_char_status_active_create 00000008  00000000  00000000  00000300  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 45 .literal.hap_char_smoke_detected_create 0000000c  00000000  00000000  00000308  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 46 .literal.hap_char_status_fault_create 0000000c  00000000  00000000  00000314  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 47 .literal.hap_char_status_low_battery_create 0000000c  00000000  00000000  00000320  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 48 .literal.hap_char_status_tampered_create 0000000c  00000000  00000000  0000032c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 49 .literal.hap_char_target_horizontal_tilt_angle_create 00000014  00000000  00000000  00000338  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 50 .literal.hap_char_target_position_create 00000014  00000000  00000000  0000034c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 51 .literal.hap_char_target_vertical_tilt_angle_create 00000014  00000000  00000000  00000360  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 52 .literal.hap_char_security_system_alarm_type_create 0000000c  00000000  00000000  00000374  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 53 .literal.hap_char_charging_state_create 0000000c  00000000  00000000  00000380  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 54 .literal.hap_char_carbon_monoxide_level_create 00000014  00000000  00000000  0000038c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 55 .literal.hap_char_carbon_monoxide_peak_level_create 00000014  00000000  00000000  000003a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 56 .literal.hap_char_carbon_dioxide_detected_create 0000000c  00000000  00000000  000003b4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 57 .literal.hap_char_carbon_dioxide_level_create 00000014  00000000  00000000  000003c0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 58 .literal.hap_char_carbon_dioxide_peak_level_create 00000014  00000000  00000000  000003d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 59 .literal.hap_char_air_quality_create 0000000c  00000000  00000000  000003e8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 60 .literal.hap_char_accessory_flags_create 00000008  00000000  00000000  000003f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 61 .literal.hap_char_lock_physical_controls_create 0000000c  00000000  00000000  000003fc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 62 .literal.hap_char_current_air_purifier_state_create 0000000c  00000000  00000000  00000408  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 63 .literal.hap_char_current_slat_state_create 0000000c  00000000  00000000  00000414  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 64 .literal.hap_char_slat_type_create 0000000c  00000000  00000000  00000420  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 65 .literal.hap_char_filter_life_level_create 0000000c  00000000  00000000  0000042c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 66 .literal.hap_char_filter_change_indication_create 0000000c  00000000  00000000  00000438  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 67 .literal.hap_char_reset_filter_indication_create 0000000c  00000000  00000000  00000444  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 68 .literal.hap_char_target_air_purifier_state_create 0000000c  00000000  00000000  00000450  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 69 .literal.hap_char_target_fan_state_create 0000000c  00000000  00000000  0000045c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 70 .literal.hap_char_current_fan_state_create 0000000c  00000000  00000000  00000468  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 71 .literal.hap_char_active_create 0000000c  00000000  00000000  00000474  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 72 .literal.hap_char_swing_mode_create 0000000c  00000000  00000000  00000480  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 73 .literal.hap_char_current_tilt_angle_create 00000014  00000000  00000000  0000048c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 74 .literal.hap_char_target_tilt_angle_create 00000014  00000000  00000000  000004a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 75 .literal.hap_char_ozone_density_create 00000014  00000000  00000000  000004b4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 76 .literal.hap_char_nitrogen_dioxide_density_create 00000014  00000000  00000000  000004c8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 77 .literal.hap_char_sulphur_dioxide_density_create 00000014  00000000  00000000  000004dc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 78 .literal.hap_char_pm_2_5_density_create 00000014  00000000  00000000  000004f0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 79 .literal.hap_char_pm_10_density_create 00000014  00000000  00000000  00000504  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 80 .literal.hap_char_voc_density_create 00000014  00000000  00000000  00000518  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 81 .literal.hap_char_service_label_index_create 00000008  00000000  00000000  0000052c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 82 .literal.hap_char_service_label_namespace_create 0000000c  00000000  00000000  00000534  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 83 .literal.hap_char_color_temperature_create 0000000c  00000000  00000000  00000540  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 84 .literal.hap_char_current_heater_cooler_state_create 0000000c  00000000  00000000  0000054c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 85 .literal.hap_char_target_heater_cooler_state_create 0000000c  00000000  00000000  00000558  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 86 .literal.hap_char_current_humidifier_dehumidifier_state_create 0000000c  00000000  00000000  00000564  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 87 .literal.hap_char_target_humidifier_dehumidifier_state_create 0000000c  00000000  00000000  00000570  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 88 .literal.hap_char_water_level_create 00000018  00000000  00000000  0000057c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 89 .literal.hap_char_relative_humidity_dehumidifier_threshold_create 00000020  00000000  00000000  00000594  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 90 .literal.hap_char_relative_humidity_humidifier_threshold_create 00000020  00000000  00000000  000005b4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 91 .literal.hap_char_program_mode_create 0000000c  00000000  00000000  000005d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 92 .literal.hap_char_in_use_create 0000000c  00000000  00000000  000005e0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 93 .literal.hap_char_set_duration_create 00000010  00000000  00000000  000005ec  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 94 .literal.hap_char_remaining_duration_create 00000010  00000000  00000000  000005fc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 95 .literal.hap_char_valve_type_create 0000000c  00000000  00000000  0000060c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 96 .literal.hap_char_is_configured_create 0000000c  00000000  00000000  00000618  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 97 .literal.hap_char_status_jammed_create 0000000c  00000000  00000000  00000624  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 98 .literal.hap_char_administrator_only_access_create 00000008  00000000  00000000  00000630  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 99 .literal.hap_char_lock_control_point_create 00000008  00000000  00000000  00000638  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+100 .literal.hap_char_lock_last_known_action_create 0000000c  00000000  00000000  00000640  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+101 .literal.hap_char_lock_management_auto_security_timeout_create 00000010  00000000  00000000  0000064c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+102 .literal.hap_char_logs_create 00000008  00000000  00000000  0000065c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+103 .literal.hap_char_air_particulate_density_create 00000014  00000000  00000000  00000664  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+104 .literal.hap_char_air_particulate_size_create 0000000c  00000000  00000000  00000678  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+105 .text         00000000  00000000  00000000  00000684  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+106 .data         00000000  00000000  00000000  00000684  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+107 .bss          00000000  00000000  00000000  00000684  2**0
+                  ALLOC
+108 .rodata.str1.4 000001cf  00000000  00000000  00000684  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+109 .text.hap_char_brightness_create 00000032  00000000  00000000  00000854  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+110 .text.hap_char_cooling_threshold_temperature_create 00000036  00000000  00000000  00000888  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+111 .text.hap_char_current_door_state_create 00000028  00000000  00000000  000008c0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+112 .text.hap_char_current_heating_cooling_state_create 00000028  00000000  00000000  000008e8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+113 .text.hap_char_current_relative_humidity_create 00000036  00000000  00000000  00000910  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+114 .text.hap_char_current_temperature_create 00000036  00000000  00000000  00000948  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+115 .text.hap_char_firmware_revision_create 0000001a  00000000  00000000  00000980  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+116 .text.hap_char_hardware_revision_create 0000001a  00000000  00000000  0000099c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+117 .text.hap_char_heating_threshold_temperature_create 00000036  00000000  00000000  000009b8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+118 .text.hap_char_hue_create 00000036  00000000  00000000  000009f0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+119 .text.hap_char_identify_create 0000001a  00000000  00000000  00000a28  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+120 .text.hap_char_lock_current_state_create 00000028  00000000  00000000  00000a44  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+121 .text.hap_char_lock_target_state_create 00000028  00000000  00000000  00000a6c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+122 .text.hap_char_manufacturer_create 0000001a  00000000  00000000  00000a94  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+123 .text.hap_char_model_create 0000001a  00000000  00000000  00000ab0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+124 .text.hap_char_motion_detected_create 0000001c  00000000  00000000  00000acc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+125 .text.hap_char_name_create 0000001a  00000000  00000000  00000ae8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+126 .text.hap_char_obstruction_detect_create 0000001c  00000000  00000000  00000b04  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+127 .text.hap_char_on_create 0000001c  00000000  00000000  00000b20  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+128 .text.hap_char_outlet_in_use_create 0000001c  00000000  00000000  00000b3c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+129 .text.hap_char_rotation_direction_create 00000026  00000000  00000000  00000b58  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+130 .text.hap_char_rotation_speed_create 00000036  00000000  00000000  00000b80  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+131 .text.hap_char_saturation_create 00000036  00000000  00000000  00000bb8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+132 .text.hap_char_serial_number_create 0000001a  00000000  00000000  00000bf0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+133 .text.hap_char_target_door_state_create 00000028  00000000  00000000  00000c0c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+134 .text.hap_char_target_heating_cooling_state_create 00000028  00000000  00000000  00000c34  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+135 .text.hap_char_target_relative_humidity_create 00000036  00000000  00000000  00000c5c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+136 .text.hap_char_target_temperature_create 00000036  00000000  00000000  00000c94  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+137 .text.hap_char_temperature_display_units_create 00000028  00000000  00000000  00000ccc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+138 .text.hap_char_version_create 0000001a  00000000  00000000  00000cf4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+139 .text.hap_char_security_system_current_state_create 00000028  00000000  00000000  00000d10  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+140 .text.hap_char_security_system_target_state_create 00000028  00000000  00000000  00000d38  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+141 .text.hap_char_battery_level_create 00000036  00000000  00000000  00000d60  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+142 .text.hap_char_carbon_monoxide_detected_create 00000028  00000000  00000000  00000d98  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+143 .text.hap_char_contact_sensor_state_create 00000028  00000000  00000000  00000dc0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+144 .text.hap_char_current_ambient_light_level_create 00000036  00000000  00000000  00000de8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+145 .text.hap_char_current_horizontal_tilt_angle_create 00000032  00000000  00000000  00000e20  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+146 .text.hap_char_current_position_create 00000036  00000000  00000000  00000e54  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+147 .text.hap_char_current_vertical_tilt_angle_create 00000032  00000000  00000000  00000e8c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+148 .text.hap_char_hold_position_create 0000001c  00000000  00000000  00000ec0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+149 .text.hap_char_leak_detected_create 00000028  00000000  00000000  00000edc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+150 .text.hap_char_occupancy_detected_create 00000028  00000000  00000000  00000f04  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+151 .text.hap_char_position_state_create 00000028  00000000  00000000  00000f2c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+152 .text.hap_char_programmable_switch_event_create 00000028  00000000  00000000  00000f54  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+153 .text.hap_char_status_active_create 0000001c  00000000  00000000  00000f7c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+154 .text.hap_char_smoke_detected_create 00000028  00000000  00000000  00000f98  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+155 .text.hap_char_status_fault_create 00000028  00000000  00000000  00000fc0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+156 .text.hap_char_status_low_battery_create 00000028  00000000  00000000  00000fe8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+157 .text.hap_char_status_tampered_create 00000028  00000000  00000000  00001010  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+158 .text.hap_char_target_horizontal_tilt_angle_create 00000032  00000000  00000000  00001038  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+159 .text.hap_char_target_position_create 00000036  00000000  00000000  0000106c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+160 .text.hap_char_target_vertical_tilt_angle_create 00000032  00000000  00000000  000010a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+161 .text.hap_char_security_system_alarm_type_create 00000028  00000000  00000000  000010d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+162 .text.hap_char_charging_state_create 00000028  00000000  00000000  00001100  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+163 .text.hap_char_carbon_monoxide_level_create 00000028  00000000  00000000  00001128  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+164 .text.hap_char_carbon_monoxide_peak_level_create 00000028  00000000  00000000  00001150  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+165 .text.hap_char_carbon_dioxide_detected_create 00000028  00000000  00000000  00001178  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+166 .text.hap_char_carbon_dioxide_level_create 00000028  00000000  00000000  000011a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+167 .text.hap_char_carbon_dioxide_peak_level_create 00000028  00000000  00000000  000011c8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+168 .text.hap_char_air_quality_create 00000028  00000000  00000000  000011f0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+169 .text.hap_char_accessory_flags_create 0000001a  00000000  00000000  00001218  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+170 .text.hap_char_lock_physical_controls_create 00000028  00000000  00000000  00001234  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+171 .text.hap_char_current_air_purifier_state_create 00000028  00000000  00000000  0000125c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+172 .text.hap_char_current_slat_state_create 00000028  00000000  00000000  00001284  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+173 .text.hap_char_slat_type_create 00000028  00000000  00000000  000012ac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+174 .text.hap_char_filter_life_level_create 00000028  00000000  00000000  000012d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+175 .text.hap_char_filter_change_indication_create 00000028  00000000  00000000  000012fc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+176 .text.hap_char_reset_filter_indication_create 00000028  00000000  00000000  00001324  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+177 .text.hap_char_target_air_purifier_state_create 00000028  00000000  00000000  0000134c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+178 .text.hap_char_target_fan_state_create 00000028  00000000  00000000  00001374  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+179 .text.hap_char_current_fan_state_create 00000028  00000000  00000000  0000139c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+180 .text.hap_char_active_create 00000027  00000000  00000000  000013c4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+181 .text.hap_char_swing_mode_create 00000028  00000000  00000000  000013ec  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+182 .text.hap_char_current_tilt_angle_create 00000032  00000000  00000000  00001414  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+183 .text.hap_char_target_tilt_angle_create 00000032  00000000  00000000  00001448  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+184 .text.hap_char_ozone_density_create 00000028  00000000  00000000  0000147c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+185 .text.hap_char_nitrogen_dioxide_density_create 00000028  00000000  00000000  000014a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+186 .text.hap_char_sulphur_dioxide_density_create 00000028  00000000  00000000  000014cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+187 .text.hap_char_pm_2_5_density_create 00000028  00000000  00000000  000014f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+188 .text.hap_char_pm_10_density_create 00000028  00000000  00000000  0000151c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+189 .text.hap_char_voc_density_create 00000028  00000000  00000000  00001544  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+190 .text.hap_char_service_label_index_create 0000001c  00000000  00000000  0000156c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+191 .text.hap_char_service_label_namespace_create 00000027  00000000  00000000  00001588  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+192 .text.hap_char_color_temperature_create 00000028  00000000  00000000  000015b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+193 .text.hap_char_current_heater_cooler_state_create 00000028  00000000  00000000  000015d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+194 .text.hap_char_target_heater_cooler_state_create 00000028  00000000  00000000  00001600  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+195 .text.hap_char_current_humidifier_dehumidifier_state_create 00000028  00000000  00000000  00001628  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+196 .text.hap_char_target_humidifier_dehumidifier_state_create 00000028  00000000  00000000  00001650  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+197 .text.hap_char_water_level_create 0000002a  00000000  00000000  00001678  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+198 .text.hap_char_relative_humidity_dehumidifier_threshold_create 00000036  00000000  00000000  000016a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+199 .text.hap_char_relative_humidity_humidifier_threshold_create 00000036  00000000  00000000  000016dc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+200 .text.hap_char_program_mode_create 00000028  00000000  00000000  00001714  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+201 .text.hap_char_in_use_create 00000028  00000000  00000000  0000173c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+202 .text.hap_char_set_duration_create 00000027  00000000  00000000  00001764  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+203 .text.hap_char_remaining_duration_create 00000028  00000000  00000000  0000178c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+204 .text.hap_char_valve_type_create 00000028  00000000  00000000  000017b4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+205 .text.hap_char_is_configured_create 00000028  00000000  00000000  000017dc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+206 .text.hap_char_status_jammed_create 00000028  00000000  00000000  00001804  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+207 .text.hap_char_administrator_only_access_create 0000001c  00000000  00000000  0000182c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+208 .text.hap_char_lock_control_point_create 0000001a  00000000  00000000  00001848  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+209 .text.hap_char_lock_last_known_action_create 00000028  00000000  00000000  00001864  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+210 .text.hap_char_lock_management_auto_security_timeout_create 00000024  00000000  00000000  0000188c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+211 .text.hap_char_logs_create 0000001a  00000000  00000000  000018b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+212 .text.hap_char_air_particulate_density_create 00000028  00000000  00000000  000018cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+213 .text.hap_char_air_particulate_size_create 00000027  00000000  00000000  000018f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+214 .debug_frame  000009e8  00000000  00000000  0000191c  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+215 .debug_info   000035fc  00000000  00000000  00002304  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+216 .debug_abbrev 0000014e  00000000  00000000  00005900  2**0
+                  CONTENTS, READONLY, DEBUGGING
+217 .debug_loc    00001970  00000000  00000000  00005a4e  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+218 .debug_aranges 00000360  00000000  00000000  000073be  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+219 .debug_ranges 00000350  00000000  00000000  0000771e  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+220 .debug_line   0000179d  00000000  00000000  00007a6e  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+221 .debug_str    00001856  00000000  00000000  0000920b  2**0
+                  CONTENTS, READONLY, DEBUGGING
+222 .comment      0000003b  00000000  00000000  0000aa61  2**0
+                  CONTENTS, READONLY
+223 .xtensa.info  00000038  00000000  00000000  0000aa9c  2**0
+                  CONTENTS, READONLY
+224 .xt.lit       00000348  00000000  00000000  0000aad4  2**0
+                  CONTENTS, RELOC, READONLY
+225 .xt.prop      00001d88  00000000  00000000  0000ae1c  2**0
+                  CONTENTS, RELOC, READONLY
+
+hap_apple_servs.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.hap_serv_accessory_information_create 00000044  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.hap_serv_protocol_information_create 00000014  00000000  00000000  00000078  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.hap_serv_fan_create 00000014  00000000  00000000  0000008c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.hap_serv_garage_door_opener_create 00000024  00000000  00000000  000000a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.hap_serv_lightbulb_create 00000014  00000000  00000000  000000c4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.hap_serv_lock_management_create 0000001c  00000000  00000000  000000d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.hap_serv_lock_mechanism_create 0000001c  00000000  00000000  000000f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.hap_serv_outlet_create 0000001c  00000000  00000000  00000110  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.hap_serv_switch_create 00000014  00000000  00000000  0000012c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.hap_serv_thermostat_create 00000034  00000000  00000000  00000140  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.hap_serv_air_quality_sensor_create 00000014  00000000  00000000  00000174  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .literal.hap_serv_security_system_create 0000001c  00000000  00000000  00000188  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .literal.hap_serv_carbon_monoxide_sensor_create 00000014  00000000  00000000  000001a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .literal.hap_serv_contact_sensor_create 00000014  00000000  00000000  000001b8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .literal.hap_serv_door_create 00000024  00000000  00000000  000001cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .literal.hap_serv_humidity_sensor_create 00000014  00000000  00000000  000001f0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .literal.hap_serv_leak_sensor_create 00000014  00000000  00000000  00000204  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .literal.hap_serv_light_sensor_create 00000014  00000000  00000000  00000218  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .literal.hap_serv_motion_sensor_create 00000014  00000000  00000000  0000022c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .literal.hap_serv_occupancy_sensor_create 00000014  00000000  00000000  00000240  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .literal.hap_serv_smoke_sensor_create 00000014  00000000  00000000  00000254  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .literal.hap_serv_stateless_programmable_switch_create 00000014  00000000  00000000  00000268  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .literal.hap_serv_temperature_sensor_create 00000014  00000000  00000000  0000027c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .literal.hap_serv_window_create 00000024  00000000  00000000  00000290  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .literal.hap_serv_window_covering_create 00000024  00000000  00000000  000002b4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .literal.hap_serv_battery_service_create 00000024  00000000  00000000  000002d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .literal.hap_serv_carbon_dioxide_sensor_create 00000014  00000000  00000000  000002fc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .literal.hap_serv_fan_v2_create 00000014  00000000  00000000  00000310  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 28 .literal.hap_serv_slat_create 0000001c  00000000  00000000  00000324  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 29 .literal.hap_serv_filter_maintenance_create 00000014  00000000  00000000  00000340  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 30 .literal.hap_serv_air_purifier_create 00000024  00000000  00000000  00000354  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 31 .literal.hap_serv_heater_cooler_create 0000002c  00000000  00000000  00000378  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 32 .literal.hap_serv_humidifier_dehumidifier_create 0000002c  00000000  00000000  000003a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 33 .literal.hap_serv_service_label_create 00000014  00000000  00000000  000003d0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 34 .literal.hap_serv_irrigation_system_create 00000024  00000000  00000000  000003e4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 35 .literal.hap_serv_valve_create 00000024  00000000  00000000  00000408  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 36 .literal.hap_serv_faucet_create 00000014  00000000  00000000  0000042c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 37 .text         00000000  00000000  00000000  00000440  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 38 .data         00000000  00000000  00000000  00000440  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 39 .bss          00000000  00000000  00000000  00000440  2**0
+                  ALLOC
+ 40 .rodata.str1.4 00000093  00000000  00000000  00000440  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 41 .text.hap_serv_accessory_information_create 000000c0  00000000  00000000  000004d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 42 .text.hap_serv_protocol_information_create 00000038  00000000  00000000  00000594  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 43 .text.hap_serv_fan_create 00000038  00000000  00000000  000005cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 44 .text.hap_serv_garage_door_opener_create 00000066  00000000  00000000  00000604  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 45 .text.hap_serv_lightbulb_create 00000038  00000000  00000000  0000066c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 46 .text.hap_serv_lock_management_create 0000004c  00000000  00000000  000006a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 47 .text.hap_serv_lock_mechanism_create 0000004e  00000000  00000000  000006f0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 48 .text.hap_serv_outlet_create 0000004e  00000000  00000000  00000740  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 49 .text.hap_serv_switch_create 00000038  00000000  00000000  00000790  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 50 .text.hap_serv_thermostat_create 00000090  00000000  00000000  000007c8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 51 .text.hap_serv_air_quality_sensor_create 00000038  00000000  00000000  00000858  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 52 .text.hap_serv_security_system_create 0000004e  00000000  00000000  00000890  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 53 .text.hap_serv_carbon_monoxide_sensor_create 00000038  00000000  00000000  000008e0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 54 .text.hap_serv_contact_sensor_create 00000038  00000000  00000000  00000918  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 55 .text.hap_serv_door_create 00000066  00000000  00000000  00000950  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 56 .text.hap_serv_humidity_sensor_create 00000038  00000000  00000000  000009b8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 57 .text.hap_serv_leak_sensor_create 00000038  00000000  00000000  000009f0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 58 .text.hap_serv_light_sensor_create 00000038  00000000  00000000  00000a28  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 59 .text.hap_serv_motion_sensor_create 00000038  00000000  00000000  00000a60  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 60 .text.hap_serv_occupancy_sensor_create 00000038  00000000  00000000  00000a98  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 61 .text.hap_serv_smoke_sensor_create 00000038  00000000  00000000  00000ad0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 62 .text.hap_serv_stateless_programmable_switch_create 00000038  00000000  00000000  00000b08  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 63 .text.hap_serv_temperature_sensor_create 00000038  00000000  00000000  00000b40  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 64 .text.hap_serv_window_create 00000066  00000000  00000000  00000b78  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 65 .text.hap_serv_window_covering_create 00000066  00000000  00000000  00000be0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 66 .text.hap_serv_battery_service_create 00000066  00000000  00000000  00000c48  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 67 .text.hap_serv_carbon_dioxide_sensor_create 00000038  00000000  00000000  00000cb0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 68 .text.hap_serv_fan_v2_create 00000038  00000000  00000000  00000ce8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 69 .text.hap_serv_slat_create 0000004e  00000000  00000000  00000d20  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 70 .text.hap_serv_filter_maintenance_create 00000038  00000000  00000000  00000d70  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 71 .text.hap_serv_air_purifier_create 00000066  00000000  00000000  00000da8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 72 .text.hap_serv_heater_cooler_create 0000007a  00000000  00000000  00000e10  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 73 .text.hap_serv_humidifier_dehumidifier_create 0000007a  00000000  00000000  00000e8c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 74 .text.hap_serv_service_label_create 00000038  00000000  00000000  00000f08  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 75 .text.hap_serv_irrigation_system_create 00000066  00000000  00000000  00000f40  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 76 .text.hap_serv_valve_create 00000066  00000000  00000000  00000fa8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 77 .text.hap_serv_faucet_create 00000038  00000000  00000000  00001010  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 78 .debug_frame  00000388  00000000  00000000  00001048  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 79 .debug_info   00002190  00000000  00000000  000013d0  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 80 .debug_abbrev 000001bd  00000000  00000000  00003560  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 81 .debug_loc    00000961  00000000  00000000  0000371d  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 82 .debug_aranges 00000140  00000000  00000000  0000407e  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 83 .debug_ranges 00000130  00000000  00000000  000041be  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 84 .debug_line   00000bce  00000000  00000000  000042ee  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 85 .debug_str    0000131b  00000000  00000000  00004ebc  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 86 .comment      0000003b  00000000  00000000  000061d7  2**0
+                  CONTENTS, READONLY
+ 87 .xtensa.info  00000038  00000000  00000000  00006212  2**0
+                  CONTENTS, READONLY
+ 88 .xt.lit       00000128  00000000  00000000  0000624a  2**0
+                  CONTENTS, RELOC, READONLY
+ 89 .xt.prop      00000d50  00000000  00000000  00006372  2**0
+                  CONTENTS, RELOC, READONLY

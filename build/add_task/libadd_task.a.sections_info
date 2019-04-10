@@ -1,0 +1,54 @@
+In archive /home/tinhebd19/esp/Project/esp-homekit-sdk/accessories/bridge/build/add_task/libadd_task.a:
+
+add_task.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.get_state_behavior 00000010  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.vTimer_1_Callback 0000001c  00000000  00000000  00000044  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.add_remove_accessory 000000d4  00000000  00000000  00000060  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .text         00000000  00000000  00000000  00000134  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  4 .data         00000000  00000000  00000000  00000134  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  5 .bss          00000000  00000000  00000000  00000134  2**0
+                  ALLOC
+  6 .rodata.str1.4 000002cd  00000000  00000000  00000134  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  7 .text.get_state_behavior 00000041  00000000  00000000  00000404  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .text.vTimer_1_Callback 0000003a  00000000  00000000  00000448  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .text.add_remove_accessory 000001eb  00000000  00000000  00000484  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .rodata.add_remove_accessory 0000001c  00000000  00000000  00000670  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 11 .bss.oldsum_accesory 00000001  00000000  00000000  0000068c  2**0
+                  ALLOC
+ 12 .debug_frame  00000058  00000000  00000000  0000068c  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 13 .debug_info   00000718  00000000  00000000  000006e4  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 14 .debug_abbrev 00000182  00000000  00000000  00000dfc  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 15 .debug_loc    000000cf  00000000  00000000  00000f7e  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 16 .debug_aranges 00000030  00000000  00000000  0000104d  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 17 .debug_ranges 00000020  00000000  00000000  0000107d  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 18 .debug_line   000004ec  00000000  00000000  0000109d  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 19 .debug_str    0000040f  00000000  00000000  00001589  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 20 .comment      0000003b  00000000  00000000  00001998  2**0
+                  CONTENTS, READONLY
+ 21 .xtensa.info  00000038  00000000  00000000  000019d3  2**0
+                  CONTENTS, READONLY
+ 22 .xt.lit       00000018  00000000  00000000  00001a0b  2**0
+                  CONTENTS, RELOC, READONLY
+ 23 .xt.prop      000001f8  00000000  00000000  00001a23  2**0
+                  CONTENTS, RELOC, READONLY

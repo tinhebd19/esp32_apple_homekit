@@ -1,0 +1,54 @@
+In archive /home/tinhebd19/esp/Project/esp-homekit-sdk/accessories/bridge/build/temperature/libtemperature.a:
+
+temperature.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.temperature_identify 00000010  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.sensor_read 00000054  00000000  00000000  00000044  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.add_temperature_to_bridge 00000084  00000000  00000000  00000098  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .text         00000000  00000000  00000000  0000011c  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  4 .data         00000000  00000000  00000000  0000011c  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  5 .bss          00000000  00000000  00000000  0000011c  2**0
+                  ALLOC
+  6 .rodata.str1.4 000001ec  00000000  00000000  0000011c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  7 .text.temperature_identify 00000020  00000000  00000000  00000308  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .text.sensor_read 000000cb  00000000  00000000  00000328  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .text.add_temperature_to_bridge 00000132  00000000  00000000  000003f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .bss.service$11608 00000004  00000000  00000000  00000528  2**2
+                  ALLOC
+ 11 .bss.accessory$11607 00000004  00000000  00000000  00000528  2**2
+                  ALLOC
+ 12 .debug_frame  00000058  00000000  00000000  00000528  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 13 .debug_info   000008b2  00000000  00000000  00000580  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 14 .debug_abbrev 000001eb  00000000  00000000  00000e32  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 15 .debug_loc    000000e7  00000000  00000000  0000101d  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 16 .debug_aranges 00000030  00000000  00000000  00001104  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 17 .debug_ranges 00000020  00000000  00000000  00001134  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 18 .debug_line   000003b8  00000000  00000000  00001154  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 19 .debug_str    000007d3  00000000  00000000  0000150c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 20 .comment      0000003b  00000000  00000000  00001cdf  2**0
+                  CONTENTS, READONLY
+ 21 .xtensa.info  00000038  00000000  00000000  00001d1a  2**0
+                  CONTENTS, READONLY
+ 22 .xt.lit       00000018  00000000  00000000  00001d52  2**0
+                  CONTENTS, RELOC, READONLY
+ 23 .xt.prop      000000f0  00000000  00000000  00001d6a  2**0
+                  CONTENTS, RELOC, READONLY

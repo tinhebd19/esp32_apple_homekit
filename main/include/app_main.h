@@ -23,6 +23,7 @@
 #include <freertos/task.h>
 #include <freertos/timers.h>
 #include <freertos/event_groups.h>
+#include <freertos/queue.h>
 
 #include <esp_log.h>
 #include "esp_system.h"
@@ -54,7 +55,6 @@
 #include "soc/emac_ex_reg.h"
 #include "driver/periph_ctrl.h"
 
-
 #define USE_DEVKIT      1
 //#define USE_KIT_ETH     1
 
@@ -67,9 +67,9 @@
 
 #define NUM_BRIDGED_ACCESSORIES 11
 
-#define main_BRIDGE_TASK_BIT (1 << 0UL)            // Event bit 0, Set by Bridge Task
-#define main_ADD_REMOVE_TASK_BIT (1 << 1UL)			// Event bit 1, Set by Add Remove Task
-#define main_SOURCE_ACC_TASK_BIT  (1 << 3UL)
+#define main_BRIDGE_TASK_BIT      (1 << 0UL)            // Event bit 0, Set by Bridge Task
+#define main_ADD_REMOVE_TASK_BIT  (1 << 1UL)			// Event bit 1, Set by Add Remove Task
+#define main_SOURCE_ACC_TASK_BIT  (1 << 2UL)
 
 /* Reset network credentials if button is pressed for more than 3 seconds and then released */
 #define RESET_NETWORK_BUTTON_TIMEOUT        3
@@ -90,6 +90,9 @@
 extern uint8_t sum_accesory;
 extern  uint8_t oldsum_accesory;
 extern EventGroupHandle_t xEventGroup_Add_Remove;
+extern TaskHandle_t xTask1, xTask2, xTask3;
+extern char str_name[20];
+extern xQueueHandle xQueue_Send_Info_Acc;
 
 typedef enum{
 	DO_NOTTHING = 1,
@@ -97,6 +100,20 @@ typedef enum{
 	REMOVE_ACC,
 	ERROR_ACC
 } state_behavior_t;
+
+/*
+ *  CAP PHAT DONG
+ *  int *ptr = (int *)malloc(25 *sizeof(int))  ham malloc tra ve con tro vi tri dau tien kieu du lieu void nen co the
+ *  ep kieu sang bat cu kie nao
+ *
+ *  Callo thi cap phat xong duoc set tat ca ve 0
+ *
+ *  int *ptr = (int*)calloc(25, sizeof(int))
+ *
+ *  free(ptr)
+ *
+ *
+ */
 
 
 #endif /* _APP_MAIN_H_ */

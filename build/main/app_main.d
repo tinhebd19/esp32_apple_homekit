@@ -193,18 +193,11 @@ app_main.o: \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/mac_address/include/mac_address.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/temperature/include/temperature.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/source_acc/include/source_acc.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/API_ZWAVE/include/zwave_add_remove.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/clist/include/clist.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/api_service_homekit/include/service_homekit.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/api_chars_homekit/include/chars_homekit.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/cjson_use/include/cjson_use.h \
- /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/tcp_socket_server/include/tcp_socket_server.h \
- /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/esp_wifi.h \
- /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/esp_wifi_crypto_types.h \
- /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/esp_wifi_os_adapter.h \
- /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/sys/param.h \
- /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/sys/syslimits.h \
- /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/machine/endian.h \
- /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/machine/param.h \
- /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/lwip/sys.h \
- /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/lwip/netdb.h \
- /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/tcp_socket_client/include/tcp_socket_client.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/add_task/include/add_task.h
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/accessories/bridge/main/include/app_main.h:
@@ -593,29 +586,15 @@ app_main.o: \
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/source_acc/include/source_acc.h:
 
+/home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/API_ZWAVE/include/zwave_add_remove.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/clist/include/clist.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/api_service_homekit/include/service_homekit.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/api_chars_homekit/include/chars_homekit.h:
+
 /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/cjson_use/include/cjson_use.h:
-
-/home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/tcp_socket_server/include/tcp_socket_server.h:
-
-/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/esp_wifi.h:
-
-/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/esp_wifi_crypto_types.h:
-
-/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/esp_wifi_os_adapter.h:
-
-/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/sys/param.h:
-
-/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/sys/syslimits.h:
-
-/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/machine/endian.h:
-
-/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/machine/param.h:
-
-/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/lwip/sys.h:
-
-/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/lwip/netdb.h:
-
-/home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/tcp_socket_client/include/tcp_socket_client.h:
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/add_task/include/add_task.h:
 /home/tinhebd19/esp/Project/esp-homekit-sdk/accessories/bridge/main/./app_main.c:

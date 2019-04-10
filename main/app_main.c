@@ -13,15 +13,19 @@
 #include "temperature.h"
 #include "source_acc.h"
 #include "cjson_use.h"
-#include "tcp_socket_server.h"
-#include "tcp_socket_client.h"
+//#include "tcp_socket_server.h"
+//#include "tcp_socket_client.h"
 #include "add_task.h"
+#include "zwave_add_remove.h"
+#include "clist.h"
+#include "service_homekit.h"
 
 /*
  * @brief The network reset button callback handler.
  * Useful for testing the Wi-Fi re-configuration feature of WAC2
  */
 static const char *TAG = "ESP32";
+char str_name[20] = {0};
 
 static void reset_network_handler(void* arg)
 {
@@ -89,18 +93,6 @@ static int bridge_identify(hap_acc_t *ha)
     return HAP_SUCCESS;
 }
 
-/*
- * static int accessory_identify(hap_acc_t *ha)
-{
-    hap_serv_t *hs = hap_acc_get_serv_by_uuid(ha, HAP_SERV_UUID_ACCESSORY_INFORMATION);
-    hap_char_t *hc = hap_serv_get_char_by_uuid(hs, HAP_CHAR_UUID_NAME);
-    const hap_val_t *val = hap_char_get_val(hc);
-    char *name = val->s;
-
-    ESP_LOGI(TAG, "Bridged Accessory %s identified", name);
-    return HAP_SUCCESS;
-}
- */
 
 /*The main thread for handling the Bridge Accessory */
 static void bridge_thread_entry(void *p)
@@ -117,11 +109,11 @@ static void bridge_thread_entry(void *p)
     /* Initialise the mandatory parameters for Accessory which will be added as
      * the mandatory services internally
      */
-    char str[20] = {0};
-    getNameDevice(str);
+    //char str_name[20] = {0};
+    getNameDevice(str_name);
 
     hap_acc_cfg_t cfg = {
-        .name = str,
+        .name = str_name,
         .manufacturer = "Lumi VietNam",
         .model = "Lumi-Bridge",
         .serial_num = "001122334455",
@@ -212,12 +204,17 @@ void vApplicationIdleHook( void )
 {
 /* This hook function does nothing but increment a counter. */
 /*
- * When have freetime, do something
+ * When have freetime --> Do something
  */
 
 }
 
 EventGroupHandle_t xEventGroup_Add_Remove;
+
+xQueueHandle xQueue_Send_Info_Acc;
+
+TaskHandle_t xTask1 = NULL, xTask2 = NULL, xTask3 = NULL;
+
 
 void app_main()
 {
@@ -226,18 +223,15 @@ void app_main()
 	home_ethernet_init();
 #endif
 
+	xQueue_Send_Info_Acc = xQueueCreate( 5, sizeof(int));
 	xEventGroup_Add_Remove = xEventGroupCreate();
 	test_cjson();
 	lightbulb_init();
 
 /*  Create Tasks  */
-//    xTaskCreate(bridge_thread_entry, BRIDGE_TASK_NAME, BRIDGE_TASK_STACKSIZE, NULL, BRIDGE_TASK_PRIORITY, NULL);
-//    xTaskCreate(add_remove_accessory , ADD_REMOVE_TASK_NAME, ADD_REMOVE_TASK_STACKSIZE, main_SOURCE_ACC_TASK_BIT, ADD_REMOVE_TASK_PRIORITY, NULL );
-//    xTaskCreate(source_acc_task , SOURCE_ACC_TASK_NAME, SOURCE_ACC_TASK_STACKSIZE, main_SOURCE_ACC_TASK_BIT, SOURCE_ACC_TASK_PRIORITY, NULL );
-
-	xTaskCreatePinnedToCore(bridge_thread_entry, BRIDGE_TASK_NAME, BRIDGE_TASK_STACKSIZE, NULL, BRIDGE_TASK_PRIORITY, NULL, 0 );
-	xTaskCreatePinnedToCore(add_remove_accessory , ADD_REMOVE_TASK_NAME, ADD_REMOVE_TASK_STACKSIZE, main_SOURCE_ACC_TASK_BIT, ADD_REMOVE_TASK_PRIORITY, NULL , 1 );
-	xTaskCreatePinnedToCore(source_acc_task , SOURCE_ACC_TASK_NAME, SOURCE_ACC_TASK_STACKSIZE, main_SOURCE_ACC_TASK_BIT, SOURCE_ACC_TASK_PRIORITY, NULL , 1 );
+    xTaskCreate(bridge_thread_entry, BRIDGE_TASK_NAME, BRIDGE_TASK_STACKSIZE, NULL, BRIDGE_TASK_PRIORITY, &xTask1);
+    xTaskCreate(add_remove_accessory , ADD_REMOVE_TASK_NAME, 10*1024, NULL, ADD_REMOVE_TASK_PRIORITY, &xTask2 );
+    xTaskCreate(source_acc_task , SOURCE_ACC_TASK_NAME, 4*1024, NULL, SOURCE_ACC_TASK_PRIORITY, &xTask3 );
 
 }
 

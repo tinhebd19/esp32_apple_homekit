@@ -184,6 +184,11 @@ add_task.o: \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/soc/esp32/include/soc/emac_ex_reg.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/driver/include/driver/periph_ctrl.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/soc/esp32/include/soc/periph_defs.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/source_acc/include/source_acc.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/API_ZWAVE/include/zwave_add_remove.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/clist/include/clist.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/api_service_homekit/include/service_homekit.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/api_chars_homekit/include/chars_homekit.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/lightbulb/include/lightbulb.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/driver/include/driver/ledc.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/fan/include/fan.h \
@@ -561,6 +566,16 @@ add_task.o: \
 /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/driver/include/driver/periph_ctrl.h:
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/soc/esp32/include/soc/periph_defs.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/source_acc/include/source_acc.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/API_ZWAVE/include/zwave_add_remove.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/clist/include/clist.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/api_service_homekit/include/service_homekit.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/api_chars_homekit/include/chars_homekit.h:
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/lightbulb/include/lightbulb.h:
 

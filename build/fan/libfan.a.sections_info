@@ -1,0 +1,58 @@
+In archive /home/tinhebd19/esp/Project/esp-homekit-sdk/accessories/bridge/build/fan/libfan.a:
+
+fan.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.fan_on 00000018  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.fan_identify 00000010  00000000  00000000  0000004c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.fan_write 00000028  00000000  00000000  0000005c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.add_fan_to_bridge 00000090  00000000  00000000  00000084  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .text         00000000  00000000  00000000  00000114  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  5 .data         00000000  00000000  00000000  00000114  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  6 .bss          00000000  00000000  00000000  00000114  2**0
+                  ALLOC
+  7 .rodata.str1.4 00000195  00000000  00000000  00000114  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  8 .text.fan_on  0000002a  00000000  00000000  000002ac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .text.fan_identify 00000020  00000000  00000000  000002d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .text.fan_write 00000069  00000000  00000000  000002f8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .text.add_fan_to_bridge 00000152  00000000  00000000  00000364  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .bss.service$11622 00000004  00000000  00000000  000004b8  2**2
+                  ALLOC
+ 13 .bss.accessory$11621 00000004  00000000  00000000  000004b8  2**2
+                  ALLOC
+ 14 .debug_frame  00000070  00000000  00000000  000004b8  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 15 .debug_info   0000097a  00000000  00000000  00000528  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 16 .debug_abbrev 0000020f  00000000  00000000  00000ea2  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 17 .debug_loc    0000015b  00000000  00000000  000010b1  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 18 .debug_aranges 00000038  00000000  00000000  0000120c  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 19 .debug_ranges 00000028  00000000  00000000  00001244  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 20 .debug_line   00000403  00000000  00000000  0000126c  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 21 .debug_str    00000822  00000000  00000000  0000166f  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 22 .comment      0000003b  00000000  00000000  00001e91  2**0
+                  CONTENTS, READONLY
+ 23 .xtensa.info  00000038  00000000  00000000  00001ecc  2**0
+                  CONTENTS, READONLY
+ 24 .xt.lit       00000020  00000000  00000000  00001f04  2**0
+                  CONTENTS, RELOC, READONLY
+ 25 .xt.prop      00000150  00000000  00000000  00001f24  2**0
+                  CONTENTS, RELOC, READONLY

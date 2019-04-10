@@ -3,7 +3,7 @@ environment/project/cdt.managedbuild.toolchain.gnu.cross.base.240214135/BATCH_BU
 environment/project/cdt.managedbuild.toolchain.gnu.cross.base.240214135/BATCH_BUILD/operation=replace
 environment/project/cdt.managedbuild.toolchain.gnu.cross.base.240214135/BATCH_BUILD/value=1
 environment/project/cdt.managedbuild.toolchain.gnu.cross.base.240214135/IDF_PATH/delimiter=\:
-environment/project/cdt.managedbuild.toolchain.gnu.cross.base.240214135/IDF_PATH/operation=append
+environment/project/cdt.managedbuild.toolchain.gnu.cross.base.240214135/IDF_PATH/operation=replace
 environment/project/cdt.managedbuild.toolchain.gnu.cross.base.240214135/IDF_PATH/value=/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf
 environment/project/cdt.managedbuild.toolchain.gnu.cross.base.240214135/PATH/delimiter=\:
 environment/project/cdt.managedbuild.toolchain.gnu.cross.base.240214135/PATH/operation=replace

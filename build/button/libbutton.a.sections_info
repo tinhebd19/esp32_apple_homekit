@@ -1,0 +1,163 @@
+In archive /home/tinhebd19/esp/Project/esp-homekit-sdk/accessories/bridge/build/button/libbutton.a:
+
+button.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.button_free_tmr 00000008  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.button_gpio_isr_handler 0000002c  00000000  00000000  0000003c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.button_tap_psh_cb 00000024  00000000  00000000  00000068  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.button_press_serial_cb 00000010  00000000  00000000  0000008c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.button_tap_rls_cb 00000020  00000000  00000000  0000009c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.button_press_cb 00000010  00000000  00000000  000000bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.iot_button_delete 0000003c  00000000  00000000  000000cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.iot_button_create 00000054  00000000  00000000  00000108  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.iot_button_rm_cb 00000004  00000000  00000000  0000015c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.iot_button_set_serial_cb 00000010  00000000  00000000  00000160  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.iot_button_set_evt_cb 00000024  00000000  00000000  00000170  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .literal.iot_button_add_on_press_cb 00000038  00000000  00000000  00000194  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .literal.iot_button_add_on_release_cb 00000038  00000000  00000000  000001cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .text         00000000  00000000  00000000  00000204  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 14 .data         00000000  00000000  00000000  00000204  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 15 .bss          00000000  00000000  00000000  00000204  2**0
+                  ALLOC
+ 16 .text.button_free_tmr 0000002e  00000000  00000000  00000204  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .text.button_gpio_isr_handler 000000b6  00000000  00000000  00000234  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .text.button_tap_psh_cb 000000a7  00000000  00000000  000002ec  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .text.button_press_serial_cb 00000047  00000000  00000000  00000394  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .text.button_tap_rls_cb 000000c6  00000000  00000000  000003dc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .text.button_press_cb 00000062  00000000  00000000  000004a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .rodata.str1.4 000000b2  00000000  00000000  00000508  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 23 .text.iot_button_delete 00000095  00000000  00000000  000005bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .text.iot_button_create 00000118  00000000  00000000  00000654  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .text.iot_button_rm_cb 0000003f  00000000  00000000  0000076c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .text.iot_button_set_serial_cb 00000059  00000000  00000000  000007ac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .text.iot_button_set_evt_cb 000000a5  00000000  00000000  00000808  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 28 .text.iot_button_add_on_press_cb 000000cf  00000000  00000000  000008b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 29 .text.iot_button_add_on_release_cb 000000cf  00000000  00000000  00000980  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 30 .rodata.__FUNCTION__$5424 0000001d  00000000  00000000  00000a50  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 31 .rodata.__FUNCTION__$5415 0000001b  00000000  00000000  00000a70  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 32 .rodata.__FUNCTION__$5407 00000016  00000000  00000000  00000a8c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 33 .rodata.__FUNCTION__$5384 00000012  00000000  00000000  00000aa4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 34 .rodata.__FUNCTION__$5373 00000012  00000000  00000000  00000ab8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 35 .debug_frame  00000148  00000000  00000000  00000acc  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 36 .debug_info   0000155d  00000000  00000000  00000c14  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 37 .debug_abbrev 0000026b  00000000  00000000  00002171  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 38 .debug_loc    00000709  00000000  00000000  000023dc  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 39 .debug_aranges 00000080  00000000  00000000  00002ae5  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 40 .debug_ranges 00000070  00000000  00000000  00002b65  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 41 .debug_line   000008ff  00000000  00000000  00002bd5  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 42 .debug_str    00000a92  00000000  00000000  000034d4  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 43 .comment      0000003b  00000000  00000000  00003f66  2**0
+                  CONTENTS, READONLY
+ 44 .xtensa.info  00000038  00000000  00000000  00003fa1  2**0
+                  CONTENTS, READONLY
+ 45 .xt.lit       00000068  00000000  00000000  00003fd9  2**0
+                  CONTENTS, RELOC, READONLY
+ 46 .xt.prop      000005a0  00000000  00000000  00004041  2**0
+                  CONTENTS, RELOC, READONLY
+
+button_obj.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal._ZN7CButtonC2E10gpio_num_t15button_active_t 00000004  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal._ZN7CButtonD2Ev 00000004  00000000  00000000  00000038  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal._ZN7CButton10set_evt_cbE16button_cb_type_tPFvPvES1_ 00000004  00000000  00000000  0000003c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal._ZN7CButton13set_serial_cbEPFvPvES0_jj 00000004  00000000  00000000  00000040  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal._ZN7CButton15add_on_press_cbEjPFvPvES0_ 00000004  00000000  00000000  00000044  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal._ZN7CButton17add_on_release_cbEjPFvPvES0_ 00000004  00000000  00000000  00000048  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal._ZN7CButton5rm_cbE16button_cb_type_t 00000004  00000000  00000000  0000004c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .text         00000000  00000000  00000000  00000050  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  8 .data         00000000  00000000  00000000  00000050  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  9 .bss          00000000  00000000  00000000  00000050  2**0
+                  ALLOC
+ 10 .text._ZN7CButtonC2E10gpio_num_t15button_active_t 00000011  00000000  00000000  00000050  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .text._ZN7CButtonD2Ev 00000012  00000000  00000000  00000064  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .text._ZN7CButton10set_evt_cbE16button_cb_type_tPFvPvES1_ 00000015  00000000  00000000  00000078  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .text._ZN7CButton13set_serial_cbEPFvPvES0_jj 00000018  00000000  00000000  00000090  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .text._ZN7CButton15add_on_press_cbEjPFvPvES0_ 00000015  00000000  00000000  000000a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .text._ZN7CButton17add_on_release_cbEjPFvPvES0_ 00000015  00000000  00000000  000000c0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .text._ZN7CButton5rm_cbE16button_cb_type_t 00000011  00000000  00000000  000000d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .debug_frame  000000b8  00000000  00000000  000000ec  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 18 .debug_info   00000bd9  00000000  00000000  000001a4  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 19 .debug_abbrev 00000222  00000000  00000000  00000d7d  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 20 .debug_loc    000000a5  00000000  00000000  00000f9f  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 21 .debug_aranges 00000050  00000000  00000000  00001044  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 22 .debug_ranges 00000040  00000000  00000000  00001094  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 23 .debug_line   00000441  00000000  00000000  000010d4  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 24 .debug_str    00000ffe  00000000  00000000  00001515  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 25 .comment      0000003b  00000000  00000000  00002513  2**0
+                  CONTENTS, READONLY
+ 26 .xtensa.info  00000038  00000000  00000000  0000254e  2**0
+                  CONTENTS, READONLY
+ 27 .xt.lit       00000038  00000000  00000000  00002586  2**0
+                  CONTENTS, RELOC, READONLY
+ 28 .xt.prop      00000150  00000000  00000000  000025be  2**0
+                  CONTENTS, RELOC, READONLY

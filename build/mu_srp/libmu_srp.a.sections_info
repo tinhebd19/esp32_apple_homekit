@@ -1,0 +1,94 @@
+In archive /home/tinhebd19/esp/Project/esp-homekit-sdk/accessories/bridge/build/mu_srp/libmu_srp.a:
+
+mu_srp.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.mu_get_random 00000004  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.calculate_x 00000038  00000000  00000000  00000038  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.calculate_padded_hash 00000030  00000000  00000000  00000070  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.calculate_k 00000004  00000000  00000000  000000a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.calculate_u 00000004  00000000  00000000  000000a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.mu_srp_free 00000054  00000000  00000000  000000a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.mu_srp_init 00000034  00000000  00000000  000000fc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.__mu_srp_srv_pubkey 00000090  00000000  00000000  00000130  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.mu_srp_srv_pubkey 00000054  00000000  00000000  000001c0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.mu_srp_srv_pubkey_from_salt_verifier 00000004  00000000  00000000  00000214  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.mu_srp_set_salt_verifier 00000034  00000000  00000000  00000218  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .literal.mu_srp_get_session_key 000000b0  00000000  00000000  0000024c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .literal.mu_srp_exchange_proofs 00000060  00000000  00000000  000002fc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .text         00000000  00000000  00000000  0000035c  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 14 .data         00000000  00000000  00000000  0000035c  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 15 .bss          00000000  00000000  00000000  0000035c  2**0
+                  ALLOC
+ 16 .text.mu_get_random 00000011  00000000  00000000  0000035c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .rodata.str1.4 00000002  00000000  00000000  00000370  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 18 .text.calculate_x 000000a2  00000000  00000000  00000374  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .text.calculate_padded_hash 000000c6  00000000  00000000  00000418  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .text.calculate_k 00000018  00000000  00000000  000004e0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .text.calculate_u 00000018  00000000  00000000  000004f8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .text.mu_srp_free 000000fa  00000000  00000000  00000510  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .text.mu_srp_init 000000c0  00000000  00000000  0000060c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .text.__mu_srp_srv_pubkey 000001ed  00000000  00000000  000006cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .text.mu_srp_srv_pubkey 00000146  00000000  00000000  000008bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .text.mu_srp_srv_pubkey_from_salt_verifier 00000014  00000000  00000000  00000a04  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .text.mu_srp_set_salt_verifier 000000c6  00000000  00000000  00000a18  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 28 .text.mu_srp_get_session_key 0000028d  00000000  00000000  00000ae0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 29 .text.mu_srp_exchange_proofs 00000185  00000000  00000000  00000d70  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 30 .data.g_3072  00000001  00000000  00000000  00000ef8  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 31 .data.N_3072  00000180  00000000  00000000  00000efc  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 32 .debug_frame  00000148  00000000  00000000  0000107c  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 33 .debug_info   000028de  00000000  00000000  000011c4  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 34 .debug_abbrev 0000035e  00000000  00000000  00003aa2  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 35 .debug_loc    0000135f  00000000  00000000  00003e00  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 36 .debug_aranges 00000080  00000000  00000000  0000515f  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 37 .debug_ranges 00000070  00000000  00000000  000051df  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 38 .debug_line   00000f26  00000000  00000000  0000524f  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 39 .debug_str    0000087d  00000000  00000000  00006175  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 40 .comment      0000003b  00000000  00000000  000069f2  2**0
+                  CONTENTS, READONLY
+ 41 .xtensa.info  00000038  00000000  00000000  00006a2d  2**0
+                  CONTENTS, READONLY
+ 42 .xt.lit       00000068  00000000  00000000  00006a65  2**0
+                  CONTENTS, RELOC, READONLY
+ 43 .xt.prop      00000738  00000000  00000000  00006acd  2**0
+                  CONTENTS, RELOC, READONLY

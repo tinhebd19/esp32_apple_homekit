@@ -1,0 +1,42 @@
+In archive /home/tinhebd19/esp/Project/esp-homekit-sdk/accessories/bridge/build/cjson_use/libcjson_use.a:
+
+cjson_use.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.test_cjson 00000098  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .text         00000000  00000000  00000000  000000cc  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .data         00000000  00000000  00000000  000000cc  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  3 .bss          00000000  00000000  00000000  000000cc  2**0
+                  ALLOC
+  4 .rodata.str1.4 000000e1  00000000  00000000  000000cc  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  5 .text.test_cjson 000000f2  00000000  00000000  000001b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .debug_frame  00000028  00000000  00000000  000002a4  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+  7 .debug_info   000003fa  00000000  00000000  000002cc  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+  8 .debug_abbrev 00000111  00000000  00000000  000006c6  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_loc    00000026  00000000  00000000  000007d7  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 10 .debug_aranges 00000020  00000000  00000000  000007fd  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 11 .debug_ranges 00000010  00000000  00000000  0000081d  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 12 .debug_line   00000145  00000000  00000000  0000082d  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 13 .debug_str    0000031a  00000000  00000000  00000972  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 14 .comment      0000003b  00000000  00000000  00000c8c  2**0
+                  CONTENTS, READONLY
+ 15 .xtensa.info  00000038  00000000  00000000  00000cc7  2**0
+                  CONTENTS, READONLY
+ 16 .xt.lit       00000008  00000000  00000000  00000cff  2**0
+                  CONTENTS, RELOC, READONLY
+ 17 .xt.prop      00000030  00000000  00000000  00000d07  2**0
+                  CONTENTS, RELOC, READONLY

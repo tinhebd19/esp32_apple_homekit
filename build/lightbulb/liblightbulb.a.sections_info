@@ -1,0 +1,104 @@
+In archive /home/tinhebd19/esp/Project/esp-homekit-sdk/accessories/bridge/build/lightbulb/liblightbulb.a:
+
+lightbulb.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.lightbulb_set_hsb2rgb 00000018  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.lightbulb_identify 00000010  00000000  00000000  0000004c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.lightbulb_set_aim 00000018  00000000  00000000  0000005c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.lightbulb_set_aim_hsv 00000010  00000000  00000000  00000074  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.lightbulb_update 00000008  00000000  00000000  00000084  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.lightbulb_init 00000018  00000000  00000000  0000008c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.lightbulb_deinit 0000000c  00000000  00000000  000000a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.lightbulb_set_on 00000028  00000000  00000000  000000b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.lightbulb_set_saturation 00000020  00000000  00000000  000000d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.lightbulb_set_hue 00000020  00000000  00000000  000000f8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.lightbulb_set_brightness 00000020  00000000  00000000  00000118  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .literal.lightbulb_write 00000090  00000000  00000000  00000138  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .literal.add_lightbulb_to_bridge 00000074  00000000  00000000  000001c8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .text         00000000  00000000  00000000  0000023c  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 14 .data         00000000  00000000  00000000  0000023c  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 15 .bss          00000000  00000000  00000000  0000023c  2**0
+                  ALLOC
+ 16 .text.lightbulb_set_hsb2rgb 00000118  00000000  00000000  0000023c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .rodata.lightbulb_set_hsb2rgb 00000018  00000000  00000000  00000354  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 18 .rodata.str1.4 0000025e  00000000  00000000  0000036c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 19 .text.lightbulb_identify 00000020  00000000  00000000  000005cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .text.lightbulb_set_aim 00000048  00000000  00000000  000005ec  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .text.lightbulb_set_aim_hsv 0000007e  00000000  00000000  00000634  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .text.lightbulb_update 00000017  00000000  00000000  000006b4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .rodata       00000010  00000000  00000000  000006cc  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 24 .text.lightbulb_init 0000006a  00000000  00000000  000006dc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .text.lightbulb_deinit 0000002a  00000000  00000000  00000748  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .text.lightbulb_set_on 00000065  00000000  00000000  00000774  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .text.lightbulb_set_saturation 0000004a  00000000  00000000  000007dc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 28 .text.lightbulb_set_hue 0000004a  00000000  00000000  00000828  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 29 .text.lightbulb_set_brightness 0000003e  00000000  00000000  00000874  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 30 .text.lightbulb_write 00000174  00000000  00000000  000008b4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 31 .text.add_lightbulb_to_bridge 000000fa  00000000  00000000  00000a28  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 32 .bss.service$11880 00000004  00000000  00000000  00000b24  2**2
+                  ALLOC
+ 33 .bss.accessory$11879 00000004  00000000  00000000  00000b24  2**2
+                  ALLOC
+ 34 .bss.s_on     00000001  00000000  00000000  00000b24  2**0
+                  ALLOC
+ 35 .bss.s_brightness 00000002  00000000  00000000  00000b24  2**1
+                  ALLOC
+ 36 .bss.s_hsb_val 00000006  00000000  00000000  00000b24  2**2
+                  ALLOC
+ 37 .debug_frame  00000148  00000000  00000000  00000b24  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 38 .debug_info   000012ec  00000000  00000000  00000c6c  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 39 .debug_abbrev 00000351  00000000  00000000  00001f58  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 40 .debug_loc    00000391  00000000  00000000  000022a9  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 41 .debug_aranges 00000080  00000000  00000000  0000263a  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 42 .debug_ranges 00000070  00000000  00000000  000026ba  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 43 .debug_line   000007b5  00000000  00000000  0000272a  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 44 .debug_str    00000fd8  00000000  00000000  00002edf  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 45 .comment      0000003b  00000000  00000000  00003eb7  2**0
+                  CONTENTS, READONLY
+ 46 .xtensa.info  00000038  00000000  00000000  00003ef2  2**0
+                  CONTENTS, READONLY
+ 47 .xt.lit       00000068  00000000  00000000  00003f2a  2**0
+                  CONTENTS, RELOC, READONLY
+ 48 .xt.prop      000004e0  00000000  00000000  00003f92  2**0
+                  CONTENTS, RELOC, READONLY

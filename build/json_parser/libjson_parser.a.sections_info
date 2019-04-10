@@ -1,0 +1,219 @@
+In archive /home/tinhebd19/esp/Project/esp-homekit-sdk/accessories/bridge/build/json_parser/libjson_parser.a:
+
+json_parser.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.json_skip_elem 00000000  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .literal.json_arr_search 00000004  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.json_arr_get_val_tok 00000004  00000000  00000000  00000038  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.token_matches_str 00000008  00000000  00000000  0000003c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.json_obj_search 00000008  00000000  00000000  00000044  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.json_obj_get_val_tok 00000004  00000000  00000000  0000004c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.json_tok_to_bool 00000020  00000000  00000000  00000050  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.json_tok_to_int 00000004  00000000  00000000  00000070  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.json_tok_to_int64 00000004  00000000  00000000  00000074  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.json_tok_to_float 00000004  00000000  00000000  00000078  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.json_tok_to_string 00000004  00000000  00000000  0000007c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .literal.json_obj_get_array 00000004  00000000  00000000  00000080  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .literal.json_obj_get_object 00000004  00000000  00000000  00000084  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .literal.json_obj_get_bool 00000008  00000000  00000000  00000088  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .literal.json_obj_get_int 00000008  00000000  00000000  00000090  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .literal.json_obj_get_int64 00000008  00000000  00000000  00000098  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .literal.json_obj_get_float 00000008  00000000  00000000  000000a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .literal.json_obj_get_string 00000008  00000000  00000000  000000a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .literal.json_obj_get_strlen 00000004  00000000  00000000  000000b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .literal.json_arr_get_array 00000004  00000000  00000000  000000b4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .literal.json_arr_get_object 00000004  00000000  00000000  000000b8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .literal.json_arr_get_bool 00000008  00000000  00000000  000000bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .literal.json_arr_get_int 00000008  00000000  00000000  000000c4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .literal.json_arr_get_int64 00000008  00000000  00000000  000000cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .literal.json_arr_get_float 00000008  00000000  00000000  000000d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .literal.json_arr_get_string 00000008  00000000  00000000  000000dc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .literal.json_arr_get_strlen 00000004  00000000  00000000  000000e4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .literal.json_parse_start 00000020  00000000  00000000  000000e8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 28 .literal.json_parse_end 00000008  00000000  00000000  00000108  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 29 .text         00000000  00000000  00000000  00000110  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 30 .data         00000000  00000000  00000000  00000110  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 31 .bss          00000000  00000000  00000000  00000110  2**0
+                  ALLOC
+ 32 .text.json_skip_elem 0000001d  00000000  00000000  00000110  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 33 .text.json_arr_search 0000003c  00000000  00000000  00000130  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 34 .text.json_arr_get_val_tok 00000020  00000000  00000000  0000016c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 35 .text.token_matches_str 00000034  00000000  00000000  0000018c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 36 .text.json_obj_search 00000045  00000000  00000000  000001c0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 37 .text.json_obj_get_val_tok 00000020  00000000  00000000  00000208  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 38 .rodata.str1.4 00000016  00000000  00000000  00000228  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 39 .text.json_tok_to_bool 00000057  00000000  00000000  00000240  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 40 .text.json_tok_to_int 00000028  00000000  00000000  00000298  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 41 .text.json_tok_to_int64 00000029  00000000  00000000  000002c0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 42 .text.json_tok_to_float 00000024  00000000  00000000  000002ec  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 43 .text.json_tok_to_string 00000032  00000000  00000000  00000310  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 44 .text.json_obj_get_array 00000020  00000000  00000000  00000344  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 45 .text.json_obj_leave_array 00000031  00000000  00000000  00000364  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 46 .text.json_obj_get_object 0000001c  00000000  00000000  00000398  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 47 .text.json_obj_leave_object 00000031  00000000  00000000  000003b4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 48 .text.json_obj_get_bool 00000026  00000000  00000000  000003e8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 49 .text.json_obj_get_int 00000026  00000000  00000000  00000410  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 50 .text.json_obj_get_int64 00000026  00000000  00000000  00000438  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 51 .text.json_obj_get_float 00000026  00000000  00000000  00000460  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 52 .text.json_obj_get_string 00000028  00000000  00000000  00000488  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 53 .text.json_obj_get_strlen 00000024  00000000  00000000  000004b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 54 .text.json_arr_get_array 0000001c  00000000  00000000  000004d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 55 .text.json_arr_leave_array 0000001e  00000000  00000000  000004f0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 56 .text.json_arr_get_object 0000001c  00000000  00000000  00000510  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 57 .text.json_arr_leave_object 0000001e  00000000  00000000  0000052c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 58 .text.json_arr_get_bool 00000026  00000000  00000000  0000054c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 59 .text.json_arr_get_int 00000026  00000000  00000000  00000574  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 60 .text.json_arr_get_int64 00000026  00000000  00000000  0000059c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 61 .text.json_arr_get_float 00000026  00000000  00000000  000005c4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 62 .text.json_arr_get_string 00000028  00000000  00000000  000005ec  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 63 .text.json_arr_get_strlen 00000024  00000000  00000000  00000614  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 64 .text.json_parse_start 00000080  00000000  00000000  00000638  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 65 .text.json_parse_end 0000001d  00000000  00000000  000006b8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 66 .debug_frame  00000328  00000000  00000000  000006d8  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 67 .debug_info   000011e4  00000000  00000000  00000a00  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 68 .debug_abbrev 00000201  00000000  00000000  00001be4  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 69 .debug_loc    00000ce9  00000000  00000000  00001de5  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 70 .debug_aranges 00000120  00000000  00000000  00002ace  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 71 .debug_ranges 00000110  00000000  00000000  00002bee  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 72 .debug_line   0000098a  00000000  00000000  00002cfe  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 73 .debug_str    00000553  00000000  00000000  00003688  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 74 .comment      0000003b  00000000  00000000  00003bdb  2**0
+                  CONTENTS, READONLY
+ 75 .xtensa.info  00000038  00000000  00000000  00003c16  2**0
+                  CONTENTS, READONLY
+ 76 .xt.lit       000000e0  00000000  00000000  00003c4e  2**0
+                  CONTENTS, RELOC, READONLY
+ 77 .xt.prop      00000a74  00000000  00000000  00003d2e  2**0
+                  CONTENTS, RELOC, READONLY
+
+jsmn-changed.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.jsmn_parse_primitive 00000008  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.jsmn_parse_string 0000000c  00000000  00000000  0000003c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.__jsmn_parse 00000010  00000000  00000000  00000048  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .text         00000000  00000000  00000000  00000058  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  4 .data         00000000  00000000  00000000  00000058  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  5 .bss          00000000  00000000  00000000  00000058  2**0
+                  ALLOC
+  6 .text.jsmn_alloc_token 00000026  00000000  00000000  00000058  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .text.jsmn_fill_token 0000000f  00000000  00000000  00000080  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  8 .text.jsmn_parse_primitive 00000096  00000000  00000000  00000090  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .text.jsmn_parse_string 000000f0  00000000  00000000  00000128  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .rodata.jsmn_parse_string 00000150  00000000  00000000  00000218  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 11 .text.__jsmn_parse 000001c8  00000000  00000000  00000368  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .rodata.__jsmn_parse 000001d4  00000000  00000000  00000530  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 13 .text.__jsmn_init 0000000f  00000000  00000000  00000704  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 14 .debug_frame  000000a0  00000000  00000000  00000714  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 15 .debug_info   000004e2  00000000  00000000  000007b4  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 16 .debug_abbrev 000001db  00000000  00000000  00000c96  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 17 .debug_loc    000005c9  00000000  00000000  00000e71  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 18 .debug_aranges 00000048  00000000  00000000  0000143a  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 19 .debug_ranges 00000080  00000000  00000000  00001482  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 20 .debug_line   000005ba  00000000  00000000  00001502  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 21 .debug_str    00000249  00000000  00000000  00001abc  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 22 .comment      0000003b  00000000  00000000  00001d05  2**0
+                  CONTENTS, READONLY
+ 23 .xtensa.info  00000038  00000000  00000000  00001d40  2**0
+                  CONTENTS, READONLY
+ 24 .xt.lit       00000018  00000000  00000000  00001d78  2**0
+                  CONTENTS, RELOC, READONLY
+ 25 .xt.prop      000004f8  00000000  00000000  00001d90  2**0
+                  CONTENTS, RELOC, READONLY

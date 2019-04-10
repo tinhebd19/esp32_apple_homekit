@@ -1,0 +1,46 @@
+In archive /home/tinhebd19/esp/Project/esp-homekit-sdk/accessories/bridge/build/mac_address/libmac_address.a:
+
+mac_address.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.getMacAddress 00000020  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.getNameDevice 0000000c  00000000  00000000  00000054  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .text         00000000  00000000  00000000  00000060  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  3 .data         00000000  00000000  00000000  00000060  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  4 .bss          00000000  00000000  00000000  00000060  2**0
+                  ALLOC
+  5 .rodata.str1.4 00000062  00000000  00000000  00000060  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  6 .text.getMacAddress 0000004e  00000000  00000000  000000c4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .text.getNameDevice 00000020  00000000  00000000  00000114  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .debug_frame  00000040  00000000  00000000  00000134  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+  9 .debug_info   00000270  00000000  00000000  00000174  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 10 .debug_abbrev 00000116  00000000  00000000  000003e4  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_loc    0000002c  00000000  00000000  000004fa  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 12 .debug_aranges 00000028  00000000  00000000  00000526  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 13 .debug_ranges 00000018  00000000  00000000  0000054e  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 14 .debug_line   000001e5  00000000  00000000  00000566  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 15 .debug_str    000002a1  00000000  00000000  0000074b  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 16 .comment      0000003b  00000000  00000000  000009ec  2**0
+                  CONTENTS, READONLY
+ 17 .xtensa.info  00000038  00000000  00000000  00000a27  2**0
+                  CONTENTS, READONLY
+ 18 .xt.lit       00000010  00000000  00000000  00000a5f  2**0
+                  CONTENTS, RELOC, READONLY
+ 19 .xt.prop      00000078  00000000  00000000  00000a6f  2**0
+                  CONTENTS, RELOC, READONLY

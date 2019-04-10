@@ -6,6 +6,7 @@
 HOMEKIT_PATH ?= $(abspath $(shell pwd)/../..)
 IDF_PATH ?= $(HOMEKIT_PATH)/esp-idf
 
+
 PROJECT_NAME := bridge
 EXTRA_COMPONENT_DIRS += $(HOMEKIT_PATH)/components/
 EXTRA_COMPONENT_DIRS += $(HOMEKIT_PATH)/components/homekit
@@ -18,6 +19,11 @@ EXTRA_COMPONENT_DIRS += /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/mac_
 EXTRA_COMPONENT_DIRS += /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/temperature
 EXTRA_COMPONENT_DIRS += /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/tcp_socket_server
 EXTRA_COMPONENT_DIRS += /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/tcp_socket_client
+EXTRA_COMPONENT_DIRS += /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/add_task
+EXTRA_COMPONENT_DIRS += /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/clist
+EXTRA_COMPONENT_DIRS += /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/API_ZWAVE
+EXTRA_COMPONENT_DIRS += /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/api_service_homekit
+EXTRA_COMPONENT_DIRS += /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/api_chars_homekit
 
 include $(IDF_PATH)/make/project.mk
 
