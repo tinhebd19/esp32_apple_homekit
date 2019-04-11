@@ -19,6 +19,7 @@
 #include "zwave_add_remove.h"
 #include "clist.h"
 #include "service_homekit.h"
+#include "datn_tinhdv.h"
 
 /*
  * @brief The network reset button callback handler.

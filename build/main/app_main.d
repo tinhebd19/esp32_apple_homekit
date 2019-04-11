@@ -198,7 +198,8 @@ app_main.o: \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/api_service_homekit/include/service_homekit.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/api_chars_homekit/include/chars_homekit.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/cjson_use/include/cjson_use.h \
- /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/add_task/include/add_task.h
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/add_task/include/add_task.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_tinhdv/include/datn_tinhdv.h
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/accessories/bridge/main/include/app_main.h:
 
@@ -597,4 +598,6 @@ app_main.o: \
 /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/cjson_use/include/cjson_use.h:
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/add_task/include/add_task.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_tinhdv/include/datn_tinhdv.h:
 /home/tinhebd19/esp/Project/esp-homekit-sdk/accessories/bridge/main/./app_main.c:
