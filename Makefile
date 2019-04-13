@@ -24,6 +24,7 @@ EXTRA_COMPONENT_DIRS += /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/clis
 EXTRA_COMPONENT_DIRS += /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/API_ZWAVE
 EXTRA_COMPONENT_DIRS += /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/api_service_homekit
 EXTRA_COMPONENT_DIRS += /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/api_chars_homekit
+EXTRA_COMPONENT_DIRS += /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_tinhdv
 
 include $(IDF_PATH)/make/project.mk
 

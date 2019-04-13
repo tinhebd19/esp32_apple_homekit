@@ -20,6 +20,12 @@
 #include "clist.h"
 #include "service_homekit.h"
 #include "datn_tinhdv.h"
+#include "device_switch.h"
+#include "datn_task.h"
+#include "ring_buffer.h"
+#include "stdint.h"
+#include "update_value_task.h"
+
 
 /*
  * @brief The network reset button callback handler.
@@ -201,21 +207,28 @@ static void bridge_thread_entry(void *p)
     vTaskDelete(NULL);
 }
 
+/**
+ * @func   vApplicationIdleHook
+ * @brief  None
+ * @param  None
+ * @retval None
+ */
 void vApplicationIdleHook( void )
 {
-/* This hook function does nothing but increment a counter. */
-/*
- * When have freetime --> Do something
- */
+	/* This hook function does nothing but increment a counter.
+	 * When have free time --> Do something
+	 * Must define configUSE_IDLE_HOOK set is 1 to run vApplicationIdleHook
+	 */
 
 }
 
+
 EventGroupHandle_t xEventGroup_Add_Remove;
 
-xQueueHandle xQueue_Send_Info_Acc;
+QueueHandle_t xQueue_Send_Info_Acc;
+QueueHandle_t uart_switch;
 
-TaskHandle_t xTask1 = NULL, xTask2 = NULL, xTask3 = NULL;
-
+TaskHandle_t xTask1 = NULL, xTask2 = NULL, xTask3 = NULL,   xTask_Update_Value = NULL;
 
 void app_main()
 {
@@ -228,11 +241,17 @@ void app_main()
 	xEventGroup_Add_Remove = xEventGroupCreate();
 	test_cjson();
 	lightbulb_init();
+	uart2_init();
+
+
 
 /*  Create Tasks  */
     xTaskCreate(bridge_thread_entry, BRIDGE_TASK_NAME, BRIDGE_TASK_STACKSIZE, NULL, BRIDGE_TASK_PRIORITY, &xTask1);
     xTaskCreate(add_remove_accessory , ADD_REMOVE_TASK_NAME, 10*1024, NULL, ADD_REMOVE_TASK_PRIORITY, &xTask2 );
     xTaskCreate(source_acc_task , SOURCE_ACC_TASK_NAME, 4*1024, NULL, SOURCE_ACC_TASK_PRIORITY, &xTask3 );
+    //xTaskCreate(switch_touch_task , "Switch state Task", 2*1024, NULL, 3, NULL );
+    xTaskCreate(update_value_char_task , "Update Value Char Task", 2*1024, NULL, 3, &xTask_Update_Value );
+
 
 }
 

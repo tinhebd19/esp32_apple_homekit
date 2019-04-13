@@ -199,7 +199,18 @@ app_main.o: \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/api_chars_homekit/include/chars_homekit.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/cjson_use/include/cjson_use.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/add_task/include/add_task.h \
- /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_tinhdv/include/datn_tinhdv.h
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_tinhdv/include/datn_tinhdv.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/driver/include/driver/uart.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/soc/esp32/include/soc/uart_reg.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/soc/esp32/include/soc/uart_struct.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/ringbuf.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/soc/esp32/include/soc/uart_channel.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_tinhdv/device_switch.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_tinhdv/include/ZW_typedefs.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_tinhdv/lumi_cmd.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_task/include/datn_task.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/ring_buffer/include/ring_buffer.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/update_value_task/include/update_value_task.h
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/accessories/bridge/main/include/app_main.h:
 
@@ -600,4 +611,26 @@ app_main.o: \
 /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/add_task/include/add_task.h:
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_tinhdv/include/datn_tinhdv.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/driver/include/driver/uart.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/soc/esp32/include/soc/uart_reg.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/soc/esp32/include/soc/uart_struct.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/ringbuf.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/soc/esp32/include/soc/uart_channel.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_tinhdv/device_switch.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_tinhdv/include/ZW_typedefs.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_tinhdv/lumi_cmd.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_task/include/datn_task.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/ring_buffer/include/ring_buffer.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/update_value_task/include/update_value_task.h:
 /home/tinhebd19/esp/Project/esp-homekit-sdk/accessories/bridge/main/./app_main.c:

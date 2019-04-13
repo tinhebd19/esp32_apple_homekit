@@ -13,6 +13,7 @@
 #include <string.h>
 
 
+
 #include "hap.h"
 #include "hap_fw_upgrade.h"
 //#include "hap_cloud_servs.h"
@@ -90,7 +91,7 @@
 extern uint8_t sum_accesory;
 extern  uint8_t oldsum_accesory;
 extern EventGroupHandle_t xEventGroup_Add_Remove;
-extern TaskHandle_t xTask1, xTask2, xTask3;
+extern TaskHandle_t xTask1, xTask2 , xTask3;
 extern char str_name[20];
 extern xQueueHandle xQueue_Send_Info_Acc;
 
