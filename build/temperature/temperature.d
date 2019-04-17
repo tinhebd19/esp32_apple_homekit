@@ -183,7 +183,10 @@ temperature.o: \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/spi_flash/include/esp_spi_flash.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/soc/esp32/include/soc/emac_ex_reg.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/driver/include/driver/periph_ctrl.h \
- /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/soc/esp32/include/soc/periph_defs.h
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/soc/esp32/include/soc/periph_defs.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/sensor_si7020/include/sensor_si7020.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/driver/include/driver/i2c.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/ringbuf.h
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/temperature/include/temperature.h:
 
@@ -552,4 +555,10 @@ temperature.o: \
 /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/driver/include/driver/periph_ctrl.h:
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/soc/esp32/include/soc/periph_defs.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/sensor_si7020/include/sensor_si7020.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/driver/include/driver/i2c.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/ringbuf.h:
 /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/temperature/./temperature.c:

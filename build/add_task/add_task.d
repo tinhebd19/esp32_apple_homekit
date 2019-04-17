@@ -102,6 +102,7 @@ add_task.o: \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/components/homekit/hap_apple_profiles/include/hap_apple_servs.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/components/homekit/esp_hap_core/include/hap.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/components/homekit/hap_apple_profiles/include/hap_apple_chars.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/include_datn/include/include_datn.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/source_acc/include/source_acc.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/accessories/bridge/main/include/app_main.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/components/homekit/extras/include/hap_fw_upgrade.h \
@@ -411,6 +412,8 @@ add_task.o: \
 /home/tinhebd19/esp/Project/esp-homekit-sdk/components/homekit/esp_hap_core/include/hap.h:
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/components/homekit/hap_apple_profiles/include/hap_apple_chars.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/include_datn/include/include_datn.h:
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/source_acc/include/source_acc.h:
 

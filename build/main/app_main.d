@@ -205,12 +205,15 @@ app_main.o: \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/soc/esp32/include/soc/uart_struct.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/ringbuf.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/soc/esp32/include/soc/uart_channel.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/include_datn/include/include_datn.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_tinhdv/device_switch.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_tinhdv/include/ZW_typedefs.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_tinhdv/lumi_cmd.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_task/include/datn_task.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/ring_buffer/include/ring_buffer.h \
- /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/update_value_task/include/update_value_task.h
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/update_value_task/include/update_value_task.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/sensor_si7020/include/sensor_si7020.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/driver/include/driver/i2c.h
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/accessories/bridge/main/include/app_main.h:
 
@@ -622,6 +625,8 @@ app_main.o: \
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/soc/esp32/include/soc/uart_channel.h:
 
+/home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/include_datn/include/include_datn.h:
+
 /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_tinhdv/device_switch.h:
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_tinhdv/include/ZW_typedefs.h:
@@ -633,4 +638,8 @@ app_main.o: \
 /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/ring_buffer/include/ring_buffer.h:
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/update_value_task/include/update_value_task.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/sensor_si7020/include/sensor_si7020.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/driver/include/driver/i2c.h:
 /home/tinhebd19/esp/Project/esp-homekit-sdk/accessories/bridge/main/./app_main.c:

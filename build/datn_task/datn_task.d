@@ -1,9 +1,6 @@
 datn_task.o: \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_task/datn_task.c \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_task/include/datn_task.h \
- /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_tinhdv/device_switch.h \
- /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_tinhdv/include/ZW_typedefs.h \
- /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_tinhdv/lumi_cmd.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/sys/reent.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/_ansi.h \
@@ -88,32 +85,120 @@ datn_task.o: \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/event_groups.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/timers.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/queue.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/include_datn/include/include_datn.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/components/homekit/hap_apple_profiles/include/hap_apple_servs.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/components/homekit/esp_hap_core/include/hap.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/components/homekit/hap_apple_profiles/include/hap_apple_chars.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/temperature/include/temperature.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/accessories/bridge/main/include/app_main.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/string.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/sys/string.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/components/homekit/extras/include/hap_fw_upgrade.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp-tls/esp_tls.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/posix/sys/socket.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/lwip/sockets.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/lwip/opt.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/port/lwipopts.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/time.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/machine/time.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/unistd.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/platform_include/sys/unistd.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/sys/unistd.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/sys/time.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/sys/fcntl.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/sys/_default_fcntl.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/sys/stat.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/vfs/include/sys/ioctl.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/platform_include/sys/select.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/esp_task.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/lwip/debug.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/lwip/arch.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/port/arch/cc.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/errno.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/sys/errno.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/port/arch/sys_arch.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/semphr.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/queue.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/port/arch/vfs_lwip.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/lwip/ip_addr.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/lwip/def.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/lwip/ip4_addr.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/lwip/ip6_addr.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/lwip/err.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/lwip/inet.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/fcntl.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_time.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/net_sockets.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecp.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl_ciphersuites.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/pk.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/md.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/rsa.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecdsa.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/cipher.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_crt.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/asn1.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_crl.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/dhm.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecdh.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/port/include/mbedtls/esp_debug.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/entropy.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha512.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ctr_drbg.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/aes.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/port/include/aes_alt.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/hwcrypto/aes.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/rom/aes.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/error.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/certs.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/log/include/esp_log.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/log/include/esp_log_internal.h \
- /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_tinhdv/include/datn_tinhdv.h \
- /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/driver/include/driver/uart.h \
- /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/soc/esp32/include/soc/uart_reg.h \
- /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/soc/esp32/include/soc/uart_struct.h \
- /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/driver/include/driver/periph_ctrl.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/components/button/button/include/iot_button.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/portmacro.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/json/cJSON/cJSON.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/esp_event_loop.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/esp_event.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/esp_wifi_types.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/rom/queue.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/esp_interface.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/tcpip_adapter/include/tcpip_adapter.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/rom/queue.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/esp_wifi_types.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/apps/dhcpserver.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/esp_event.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/ethernet/include/esp_eth.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/soc/esp32/include/soc/dport_reg.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/soc/esp32/include/soc/dport_access.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/esp_dport_access.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/soc/esp32/include/soc/uart_reg.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/soc/esp32/include/soc/rtc_cntl_reg.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/nvs_flash/include/nvs_flash.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/nvs_flash/include/nvs.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/spi_flash/include/esp_partition.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/spi_flash/include/esp_spi_flash.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/soc/esp32/include/soc/emac_ex_reg.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/driver/include/driver/periph_ctrl.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/soc/esp32/include/soc/periph_defs.h \
- /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/semphr.h \
- /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/queue.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_tinhdv/include/datn_tinhdv.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/driver/include/driver/uart.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/soc/esp32/include/soc/uart_reg.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/soc/esp32/include/soc/uart_struct.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/ringbuf.h \
  /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/soc/esp32/include/soc/uart_channel.h \
- /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/string.h \
- /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/sys/string.h
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/sensor_si7020/include/sensor_si7020.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/driver/include/driver/i2c.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_tinhdv/device_switch.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_tinhdv/include/ZW_typedefs.h \
+ /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_tinhdv/lumi_cmd.h
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_task/include/datn_task.h:
-
-/home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_tinhdv/device_switch.h:
-
-/home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_tinhdv/include/ZW_typedefs.h:
-
-/home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_tinhdv/lumi_cmd.h:
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 
@@ -283,19 +368,183 @@ datn_task.o: \
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/queue.h:
 
+/home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/include_datn/include/include_datn.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/components/homekit/hap_apple_profiles/include/hap_apple_servs.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/components/homekit/esp_hap_core/include/hap.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/components/homekit/hap_apple_profiles/include/hap_apple_chars.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/temperature/include/temperature.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/accessories/bridge/main/include/app_main.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/string.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/sys/string.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/components/homekit/extras/include/hap_fw_upgrade.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp-tls/esp_tls.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/posix/sys/socket.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/lwip/sockets.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/lwip/opt.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/port/lwipopts.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/time.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/machine/time.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/unistd.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/platform_include/sys/unistd.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/sys/unistd.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/sys/time.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/sys/fcntl.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/sys/_default_fcntl.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/sys/stat.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/vfs/include/sys/ioctl.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/platform_include/sys/select.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/esp_task.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/lwip/debug.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/lwip/arch.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/port/arch/cc.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/errno.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/sys/errno.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/port/arch/sys_arch.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/semphr.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/queue.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/port/arch/vfs_lwip.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/lwip/ip_addr.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/lwip/def.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/lwip/ip4_addr.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/lwip/ip6_addr.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/lwip/err.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/lwip/inet.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/fcntl.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_time.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/net_sockets.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecp.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl_ciphersuites.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/pk.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/md.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/rsa.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecdsa.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/cipher.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_crt.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/asn1.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_crl.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/dhm.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecdh.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/port/include/mbedtls/esp_debug.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/entropy.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha512.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ctr_drbg.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/aes.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/port/include/aes_alt.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/hwcrypto/aes.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/rom/aes.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/error.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/mbedtls/mbedtls/include/mbedtls/certs.h:
+
 /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/log/include/esp_log.h:
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/log/include/esp_log_internal.h:
 
-/home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_tinhdv/include/datn_tinhdv.h:
+/home/tinhebd19/esp/Project/esp-homekit-sdk/components/button/button/include/iot_button.h:
 
-/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/driver/include/driver/uart.h:
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/portmacro.h:
 
-/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/soc/esp32/include/soc/uart_reg.h:
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/json/cJSON/cJSON.h:
 
-/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/soc/esp32/include/soc/uart_struct.h:
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/esp_event_loop.h:
 
-/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/driver/include/driver/periph_ctrl.h:
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/esp_event.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/esp_wifi_types.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/rom/queue.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/esp_interface.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/tcpip_adapter/include/tcpip_adapter.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/rom/queue.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/esp_wifi_types.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/lwip/include/lwip/apps/dhcpserver.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/esp32/include/esp_event.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/ethernet/include/esp_eth.h:
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/soc/esp32/include/soc/dport_reg.h:
 
@@ -305,17 +554,41 @@ datn_task.o: \
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/soc/esp32/include/soc/uart_reg.h:
 
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/soc/esp32/include/soc/rtc_cntl_reg.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/nvs_flash/include/nvs_flash.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/nvs_flash/include/nvs.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/spi_flash/include/esp_partition.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/spi_flash/include/esp_spi_flash.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/soc/esp32/include/soc/emac_ex_reg.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/driver/include/driver/periph_ctrl.h:
+
 /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/soc/esp32/include/soc/periph_defs.h:
 
-/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/semphr.h:
+/home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_tinhdv/include/datn_tinhdv.h:
 
-/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/queue.h:
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/driver/include/driver/uart.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/soc/esp32/include/soc/uart_reg.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/soc/esp32/include/soc/uart_struct.h:
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/freertos/include/freertos/ringbuf.h:
 
 /home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/soc/esp32/include/soc/uart_channel.h:
 
-/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/string.h:
+/home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/sensor_si7020/include/sensor_si7020.h:
 
-/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/newlib/include/sys/string.h:
+/home/tinhebd19/esp/Project/esp-homekit-sdk/esp-idf/components/driver/include/driver/i2c.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_tinhdv/device_switch.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_tinhdv/include/ZW_typedefs.h:
+
+/home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_tinhdv/lumi_cmd.h:
 /home/tinhebd19/esp/Project/esp-homekit-sdk/inlcude/datn_task/./datn_task.c:

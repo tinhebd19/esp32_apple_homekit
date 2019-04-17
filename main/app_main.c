@@ -25,7 +25,7 @@
 #include "ring_buffer.h"
 #include "stdint.h"
 #include "update_value_task.h"
-
+#include "sensor_si7020.h"
 
 /*
  * @brief The network reset button callback handler.
@@ -226,6 +226,7 @@ void vApplicationIdleHook( void )
 EventGroupHandle_t xEventGroup_Add_Remove;
 
 QueueHandle_t xQueue_Send_Info_Acc;
+QueueHandle_t xQueue_update_value_chars;
 QueueHandle_t uart_switch;
 
 TaskHandle_t xTask1 = NULL, xTask2 = NULL, xTask3 = NULL,   xTask_Update_Value = NULL;
@@ -238,19 +239,20 @@ void app_main()
 #endif
 
 	xQueue_Send_Info_Acc = xQueueCreate( 5, sizeof(int));
+
+	xQueue_update_value_chars = xQueueCreate( 5, sizeof(int));
 	xEventGroup_Add_Remove = xEventGroupCreate();
 	test_cjson();
 	lightbulb_init();
 	uart2_init();
-
-
+	i2c_master_init();
 
 /*  Create Tasks  */
     xTaskCreate(bridge_thread_entry, BRIDGE_TASK_NAME, BRIDGE_TASK_STACKSIZE, NULL, BRIDGE_TASK_PRIORITY, &xTask1);
     xTaskCreate(add_remove_accessory , ADD_REMOVE_TASK_NAME, 10*1024, NULL, ADD_REMOVE_TASK_PRIORITY, &xTask2 );
     xTaskCreate(source_acc_task , SOURCE_ACC_TASK_NAME, 4*1024, NULL, SOURCE_ACC_TASK_PRIORITY, &xTask3 );
-    //xTaskCreate(switch_touch_task , "Switch state Task", 2*1024, NULL, 3, NULL );
-    xTaskCreate(update_value_char_task , "Update Value Char Task", 2*1024, NULL, 3, &xTask_Update_Value );
+    xTaskCreate(switch_touch_task , "Switch state Task", 2*1024, NULL, 3, NULL );
+    xTaskCreate(update_value_char_task , "Update Value Char Task", 2*1024, NULL, 4, &xTask_Update_Value );
 
 
 }
