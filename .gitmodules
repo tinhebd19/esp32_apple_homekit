@@ -1,0 +1,3 @@
+[submodule "submodule_sensor_tinhdv"]
+	path = submodule_sensor_tinhdv
+	url = https://github.com/tinhebd19/submodule_sensor_tinhdv.git
